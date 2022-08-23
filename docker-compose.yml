@@ -13,6 +13,7 @@ services:
     volumes:
       - ./front:/usr/src/app:cached
     tty: true
+    # command: yarn start
     command: sh -c "cd react_front && yarn start"
     ports:
       - "3000:3000"
