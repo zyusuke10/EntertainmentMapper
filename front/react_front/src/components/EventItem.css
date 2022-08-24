@@ -1,0 +1,14 @@
+.event-item {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid black;
+}
+
+.event-item-time {
+  margin-top: -1rem;
+}
+
+.event-item-location {
+  margin-top: -1rem;
+}
