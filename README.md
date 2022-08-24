@@ -2,11 +2,7 @@
 
 ## start containers
 ```
-cd front
-```
-
-```
-cd react_front
+cd front/react_front
 ```
 
 ```
@@ -14,7 +10,7 @@ yarn
 ```
 
 ```
-docker-compose up -d
+docker-compose up 
 ```
 * backend
   * http://localhost:8000/
