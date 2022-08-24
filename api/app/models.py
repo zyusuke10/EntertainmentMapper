@@ -1,5 +1,5 @@
 from django.db import models
-
+import datetime
 class Profile(models.Model):
     name = models.CharField(max_length=64)
     email = models.EmailField()
@@ -18,6 +18,7 @@ class RequestSpot(models.Model):
     genre = models.CharField(max_length=64, choices=GenreType.choices)
     place = models.CharField(max_length=16, choices=SpotType.choices)
     date = models.DateField()
+    keyword = models.CharField(max_length=16)
 
 class User(models.Model):
     name = models.CharField(max_length=64)
