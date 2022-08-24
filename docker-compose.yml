@@ -7,15 +7,15 @@ services:
     volumes:
       - ./api:/api
     command: python manage.py runserver 0.0.0.0:8000
+    depends_on:
+      - front
 
   front:
     build: ./front
     volumes:
-      - ./front:/usr/src/app:cached
+      - ./front:/usr/src/app
     tty: true
-    # command: yarn start
-    command: sh -c "cd react_front && yarn start"
+    command: yarn start
+    # command: sh -c "cd react_front && yarn start"
     ports:
       - "3000:3000"
-    depends_on:
-      - api
