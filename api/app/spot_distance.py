@@ -4,7 +4,7 @@ import math
 # 現在地から近いスポットを表示する
 def SearchNearBySpot(spots):
     geo_data = UserCurrentLocation()
-    spot_and_distances = SpotsDistancesList(geo_data['latitude'], geo_data['longitude'], spots)
+    spot_and_distances = SpotsDistancesList(float(geo_data['latitude']), float(geo_data['longitude']), spots)
     spots_and_distances_sort_by_distance = sorted(spot_and_distances, key=lambda s: s.distance)
     spots_sort_by_distance = []
     for i in range(20):
