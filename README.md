@@ -1,18 +1,18 @@
 # Event Mapper
 
-## install packages
-
-```
-docker-compose run --rm front sh -c "yarn add axios"
-```
-```
-docker-compose run --rm front sh -c "yarn add bulma"
-```
-```
-docker-compose run --rm front sh -c "yarn add leaflet"
-```
-
 ## start containers
+```
+cd front
+```
+
+```
+cd react_front
+```
+
+```
+yarn
+```
+
 ```
 docker-compose up -d
 ```
