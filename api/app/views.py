@@ -5,6 +5,7 @@ from rest_framework.response import Response
 from app.models import Profile, User, Spot, FavoriteSpot
 from app.serializers import *
 from rest_framework import generics
+from django.db.models import Q
 
 class ProfileListCreate(generics.ListCreateAPIView):
     queryset = Profile.objects.all()
@@ -18,6 +19,7 @@ class SpotListCreate(generics.ListCreateAPIView):
 
     def get_queryset(self):
         queryset = Spot.objects.all()
+        spots = Spot.objects.all()
         genre = self.request.query_params.get('genre', None)
         place = self.request.query_params.get('place', None)
         date = self.request.query_params.get('date', None)
@@ -27,7 +29,8 @@ class SpotListCreate(generics.ListCreateAPIView):
         if place is not None:
             queryset = queryset.filter(address__icontains=place)
         if date is not None:
-            queryset = queryset.filter(date__icontains=date)
+            queryset = queryset.filter(start_date__lte=date)
+            queryset = queryset.filter(end_date__gte=date)
         if keyword is not None:
             queryset = queryset.filter(explanation__icontains=keyword)
         if queryset is None:
