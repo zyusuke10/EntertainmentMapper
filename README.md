@@ -12,6 +12,10 @@ yarn
 ```
 docker-compose up 
 ```
+Dockerfileを変えた時
+```
+docker-compose up --build 
+```
 * backend
   * http://localhost:8000/
 * frontend
