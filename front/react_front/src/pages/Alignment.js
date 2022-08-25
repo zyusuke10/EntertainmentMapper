@@ -1,7 +1,7 @@
 import React, { Fragment } from "react";
 
 import "./Alignment.css";
-import Icon from './google.png'
+import Icon from '../../image/google.png'
 
 
 const Alignment = () => {
