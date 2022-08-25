@@ -1,5 +1,6 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import "./EventItem.css";
+import axios from "axios";
 
 export const EventItem = ({ name, address, date }) => {
   return (
@@ -15,3 +16,4 @@ export const EventItem = ({ name, address, date }) => {
     </div>
   );
 };
+

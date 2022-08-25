@@ -6,6 +6,7 @@ from app.models import Profile, User, Spot, FavoriteSpot
 from app.serializers import *
 from rest_framework import generics
 from app import spot_distance
+from django.db import models
 
 from rest_framework import generics
 from .serializers import UserSerializer
@@ -45,11 +46,20 @@ class FavoriteSpotListCreate(generics.ListCreateAPIView):
     queryset = FavoriteSpot.objects.all()
     serializer_class = FavoriteSpotSerializer
 
-
-# ユーザ作成のView(POST)
 class CreateUserView(generics.CreateAPIView):
     serializer_class = UserSerializer
     permission_classes = (AllowAny,)
+
+
+    def AddFavoriteSpot(self, request):
+        # user = next(filter(lambda u: u.id == request.GET['user_id'], User.objects.all())), None
+        # spot = next(filter(lambda s: s.id == request.GET['spot_id'], Spot.objects.all())), None
+        # favorite_spot = FavoriteSpotSerializer(user.id, spot.id)
+        favorite_spot = FavoriteSpotSerializer(data=request.data)
+        if favorite_spot.is_valid():
+            favorite_spot.save()
+            return Response(serializer.data, status=status.HTTP_201_CREATED)
+        return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
 
 class NearBySpotListCreate(generics.ListCreateAPIView):
     queryset = spot_distance.SearchNearBySpot(Spot.objects.all())
