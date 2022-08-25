@@ -45,7 +45,11 @@ class FavoriteSpotListCreate(generics.ListCreateAPIView):
         # user = next(filter(lambda u: u.id == request.GET['user_id'], User.objects.all())), None
         # spot = next(filter(lambda s: s.id == request.GET['spot_id'], Spot.objects.all())), None
         # favorite_spot = FavoriteSpotSerializer(user.id, spot.id)
-        favorite_spot = FavoriteSpotSerializer(self, request.GET['user_id'], request.GET['spot_id'])
-        favorite_spot.save()
+        favorite_spot = FavoriteSpotSerializer(data=request.data)
+        if favorite_spot.is_valid():
+            favorite_spot.save()
+            return Response(serializer.data, status=status.HTTP_201_CREATED)
+        return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
 class NearBySpotListCreate(generics.ListCreateAPIView):
     queryset = spot_distance.SearchNearBySpot(Spot.objects.all())
+    serializer_class = SpotSerializer
