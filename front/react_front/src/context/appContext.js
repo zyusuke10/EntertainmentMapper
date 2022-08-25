@@ -1,4 +1,4 @@
-import React, { useReducer, useContext } from "react";
+import React, { useReducer, useContext, useState } from "react";
 import reducer from "./reducer";
 import axios from "axios";
 import {
@@ -23,6 +23,7 @@ const AppContext = React.createContext();
 
 const AppProvider = ({ children }) => {
   const [state, dispatch] = useReducer(reducer, initialState);
+  const [favoriteList, setFavoriteList] = useState([]);
 
   // const addUserToLocalStorage = ({ user, token }) => {
   // //   localStorage.setItem("user", JSON.stringify(user));
@@ -84,6 +85,8 @@ const AppProvider = ({ children }) => {
         registerUser,
         loginUser,
         logoutUser,
+        favoriteList,
+        setFavoriteList,
       }}
     >
       {children}
