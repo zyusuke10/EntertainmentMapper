@@ -24,6 +24,7 @@ const AppContext = React.createContext();
 const AppProvider = ({ children }) => {
   const [state, dispatch] = useReducer(reducer, initialState);
   const [favoriteList, setFavoriteList] = useState([]);
+  // const [isClear, setIsClear] = useState(false);
 
   // const addUserToLocalStorage = ({ user, token }) => {
   // //   localStorage.setItem("user", JSON.stringify(user));
@@ -87,6 +88,8 @@ const AppProvider = ({ children }) => {
         logoutUser,
         favoriteList,
         setFavoriteList,
+        // isClear,
+        // setIsClear
       }}
     >
       {children}
