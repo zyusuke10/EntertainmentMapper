@@ -1,16 +1,25 @@
-import React, { useState } from "react";
-import { MapContainer, Marker, Popup, TileLayer, useMap } from "react-leaflet";
+import React, { useRef, useState } from "react";
+import {
+  MapContainer,
+  Marker,
+  Popup,
+  TileLayer,
+  useMap,
+  LayerGroup,
+  LayersControl,
+} from "react-leaflet";
 import "./Map.css";
 import useGeolocation from "../hooks/useGeolocation";
 import * as L from "leaflet";
 import Markers from "./Markers";
+import { useAppContext } from "../context/appContext";
 
 const Map = ({ data }) => {
   const zoom = 10;
   const position = [35.68944, 139.69167]; //positionを使ってイベントや観光地の場所にピンを置く
-  const [isClear, setIsClear] = useState(false);
   const location = useGeolocation();
   const currentPosition = [location.coordinates.lat, location.coordinates.lng];
+  const { isClear, setIsClear } = useAppContext();
 
   function ChangeView({ center, zoom }) {
     const map = useMap();
@@ -22,51 +31,79 @@ const Map = ({ data }) => {
     options: {},
   });
 
-  const blueIcon = new LeafIcon({
-      iconUrl:
-        "https://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|abcdef&chf=a,s,ee00FFFF",
-    }),
-    greenIcon = new LeafIcon({
-      iconUrl:
-        "https://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|2ecc71&chf=a,s,ee00FFFF",
-    });
+  const greenIcon = new LeafIcon({
+    iconUrl:
+      "https://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|2ecc71&chf=a,s,ee00FFFF",
+  });
+
+  const redIcon = new LeafIcon({
+    iconUrl:
+      "https://maps.gstatic.com/mapfiles/api-3/images/spotlight-poi2_hdpi.png",
+    iconSize: [20, 36],
+  });
+
+  const { Overlay } = LayersControl;
+
+  const mapRef = useRef();
+  const firstOverlayRef = useRef();
+  const secondOverlayRef = useRef();
 
   return (
     <div className="mapContainer">
-      <button className="reset-btn" onClick={() => setIsClear(true)}>
-        初期化
-      </button>
-      <MapContainer center={position} zoom={zoom}>
+      <MapContainer zoom={zoom} ref={mapRef}>
         <ChangeView center={currentPosition} zoom={zoom} />
-        <TileLayer
-          attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-          url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
-        />
-        {!isClear &&
-          data.flat().map((item,index) => {
-            const {
-              name,
-              start_date,
-              explanation,
-              picture,
-              id,
-              latitude,
-              longitude,
-            } = item;
-            const positions = L.latLng(latitude, longitude)
-            return (
-              <Markers
-                positions={positions}
-                id={id}
-                greenIcon={greenIcon}
-                picture={picture}
-                start_date={start_date}
-                explanation={explanation}
-                name={name}
-                key={index}
-              />
-            );
-          })}
+        <LayersControl position="topright">
+          <TileLayer
+            attribution='&amp;copy <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
+            url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+            id="tl1"
+          />
+          <LayersControl.Overlay name="Layer 1">
+            <LayerGroup id="lg1" ref={firstOverlayRef}>
+              {data.flat().map((item, index) => {
+                const {
+                  name,
+                  start_date,
+                  explanation,
+                  picture,
+                  id,
+                  latitude,
+                  longitude,
+                  genre,
+                } = item;
+
+                const positions = [longitude, latitude];
+
+                if (genre === "イベント") {
+                  return (
+                    <Markers
+                      positions={positions}
+                      id={id}
+                      icon={redIcon}
+                      picture={picture}
+                      start_date={start_date}
+                      explanation={explanation}
+                      name={name}
+                      key={index}
+                    />
+                  );
+                } else if (genre === "観光地") {
+                  return (
+                    <Markers
+                      positions={positions}
+                      id={id}
+                      icon={greenIcon}
+                      picture={picture}
+                      name={name}
+                      start_date="指定なし"
+                      key={index}
+                    />
+                  );
+                }
+              })}
+            </LayerGroup>
+          </LayersControl.Overlay>
+        </LayersControl>
         {location.loaded && !location.error && (
           <Marker position={currentPosition}>
             <Popup>現在位置</Popup>

@@ -8,6 +8,10 @@
   margin-left: 1rem;
 }
 
+.event-item-title{
+  color:dodgerblue;
+}
+
 .event-item-time {
   margin-top: -1rem;
 }

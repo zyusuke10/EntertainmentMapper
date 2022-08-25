@@ -3,22 +3,19 @@ import { Marker, Popup } from "react-leaflet";
 function Markers({
   positions,
   id,
-  greenIcon,
+  icon,
   picture,
   start_date,
-  explanation,
   name,
 }) {
   return (
-    <Marker position={positions} key={id} icon={greenIcon}>
-      <Popup>
+    <Marker position={positions} key={id} icon={icon}>
+      <Popup maxWidth="100" maxHeight="150">
         <img src={picture} alt="event picture" className="picture" />
         <br></br>
-        {name}
+        {`${name}`}
         <br></br>
-        {start_date}
-        <br></br>
-        {explanation}
+        {`日程:${start_date}`}
       </Popup>
     </Marker>
   );

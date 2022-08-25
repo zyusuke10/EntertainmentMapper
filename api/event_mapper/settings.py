@@ -132,7 +132,7 @@ SIMPLE_JWT = {
 
 REST_FRAMEWORK = {
 	'DEFAULT_PERMISSION_CLASSES': [
-        'rest_framework.permissions.AllowAny',
+		'rest_framework.permissions.AllowAny',  # デフォルトのアクセス制限
 	],
 	'DEFAULT_AUTHENTICATION_CLASSES': [
 		'rest_framework_simplejwt.authentication.JWTAuthentication',  # 認証に「JWT」を利用する設定
