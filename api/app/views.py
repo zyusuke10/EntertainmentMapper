@@ -2,14 +2,14 @@ from rest_framework import viewsets
 from rest_framework.decorators import action
 from rest_framework.exceptions import ValidationError
 from rest_framework.response import Response
-from app.models import Profile, User, Spot, FavoriteSpot
+from app.models import *
 from app.serializers import *
 from rest_framework import generics
 from app import spot_distance
 from django.db import models
 
 from rest_framework import generics
-from .serializers import UserSerializer
+from .serializers import *
 from rest_framework.permissions import AllowAny
 
 
@@ -77,12 +77,26 @@ class NearBySpotListCreate(generics.ListCreateAPIView):
     serializer_class = SpotSerializer
 
 class FavoriteSpotListIndex(generics.ListCreateAPIView):
+    queryset = FavoriteSpot.objects.all()
+    #　returnするときにserializeするクラス
     serializer_class = SpotSerializer
     def get_queryset(self):
-        user_favorite_spots = filter(lambda s: s.user_id == self.request.query_params.get('user_id', None), FavoriteSpot.objects.all())
+        queryset = FavoriteSpot.objects.all()
+        user_Id = self.request.query_params.get('user_id', None)
+        queryset = queryset.filter(user_id=user_Id)
+        # user_favorite_spots = []
+        # for f_spot in queryset:
+        #     if queryset.filter(user_id=1):
+        #         user_favorite_spots.append(f_spot)
+                
+        # all_spots = Spot.objects.all()
+        # queryset = []
+        # for f_spot in user_favorite_spots:
+        #     spot = next(filter(lambda s:s.id == f_spot.spot_id, all_spots))
+        # #     queryset.append(spot)
+        response = []
         all_spots = Spot.objects.all()
-        queryset = []
-        for f_spot in user_favorite_spots:
-            spot = next(filter(lambda s:s.id == f_spot.spot_id, all_spots))
-            queryset.append(spot)
-        return queryset
+        for f_spot in queryset:
+            spots = f_spot.spot
+            response.append(spots)
+        return response

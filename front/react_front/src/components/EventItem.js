@@ -23,8 +23,8 @@ export const EventItem = ({
   id = Number(id);
 
   const ids = {
-    userId: id,
-    spotId: spotId,
+    user_id: id,
+    spot_id: spotId,
   };
 
 

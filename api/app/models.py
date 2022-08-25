@@ -24,7 +24,6 @@ class RequestSpot(models.Model):
 
 class User(models.Model):
     name = models.CharField(max_length=64)
-    email = models.EmailField()
     password = models.CharField(max_length=256)
     created_at = models.DateTimeField(auto_now_add=True)
     
@@ -63,6 +62,12 @@ class Spot(models.Model):
     isfavorite = models.IntegerField(default=0)
 
 class FavoriteSpot(models.Model):
+    spot = models.ForeignKey(Spot, related_name='favoritespots', on_delete=models.CASCADE)
+    user = models.ForeignKey(User, related_name='users', on_delete=models.CASCADE)
+
+class RequestFavoriteSpot(models.Model):
     spot_id = models.PositiveIntegerField()
-    user_id = models.PositiveIntegerField()
+    user = models.PositiveIntegerField()
+
+
 
