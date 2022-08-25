@@ -9,7 +9,6 @@ RUN yarn add bulma
 RUN yarn add leaflet 
 RUN yarn add @mui/material @emotion/react @emotion/styled
 RUN yarn add react-router-dom@6
-RUN yarn add @mui/icons-material
 
 
 # RUN yarn add webpack 
