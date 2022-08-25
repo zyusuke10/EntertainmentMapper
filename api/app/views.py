@@ -64,3 +64,15 @@ class CreateUserView(generics.CreateAPIView):
 class NearBySpotListCreate(generics.ListCreateAPIView):
     queryset = spot_distance.SearchNearBySpot(Spot.objects.all())
     serializer_class = SpotSerializer
+
+class FavoriteSpotListIndex(generics.ListCreateAPIView):
+    serializer_class = SpotSerializer
+    def get_queryset(self):
+        # user_favorite_spots =  FavoriteSpot.objects.filter(lambda s:s.user_id == request.GET['user_id'])
+        user_favorite_spots = FavoriteSpot.objects.filter(lambda s: s.user_id == 1)
+        all_spots = Spot.objects.all()
+        queryset = []
+        for f_spot in user_favorite_spots:
+            spot = next(filter(lambda s:s.id == f_spot.spot_id, all_spots))
+            queryset.append(spot)
+        return queryset
