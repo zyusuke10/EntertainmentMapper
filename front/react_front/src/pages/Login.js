@@ -1,10 +1,10 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./Login.css";
 
 import { FormRow } from "../components/FormRow";
 import { useState } from "react";
 import { useAppContext } from "../context/appContext";
-// import { useNavigate } from "react-router-dom";
+import { NavLink, useNavigate } from "react-router-dom";
 
 const initialState = {
   username: "",
@@ -14,9 +14,9 @@ const initialState = {
 
 const Login = () => {
   const [values, setValues] = useState(initialState);
-  //   const navigate = useNavigate();
+    const navigate = useNavigate();
 
-  const { registerUser, loginUser, isLoading } = useAppContext();
+  const { registerUser, loginUser, isLoading, id } = useAppContext();
 
   const inputHandler = (e) => {
     setValues({ ...values, [e.target.name]: e.target.value });
@@ -34,14 +34,6 @@ const Login = () => {
       registerUser(currentUser);
     }
   };
-
-  //   useEffect(() => {
-  //     if (user) {
-  //       setTimeout(() => {
-  //         navigate("/");
-  //       }, 3000);
-  //     }
-  //   }, []);
 
   return (
     <div className="login-container">
@@ -68,8 +60,8 @@ const Login = () => {
             handleChange={inputHandler}
           />
 
-          <button type="submit" className="btn" disabled={isLoading}>
-            Submit
+          <button type="submit" className="btn">
+            <NavLink to="/home" className="loginSubmit">Submit</NavLink>
           </button>
           <p
             className="isMember"

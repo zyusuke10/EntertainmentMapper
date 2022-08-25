@@ -1,35 +1,33 @@
 import { useAppContext } from "../context/appContext";
 import "./EventItem.css";
 import axios from "axios";
+import { useState } from "react";
 
 export const EventItem = ({
   name,
   address,
   date,
-  addMarker,
   data,
-  setEventClickName,
-  eventClickName,
   spotId,
 }) => {
-  const { setIsClear } = useAppContext();
+  const { setEventClickName, eventClickName } = useAppContext();
   const onClickHandler = (e) => {
-    setEventClickName(e.target.name);
-    addMarker(eventClickName, data);
+    setEventClickName(e.target.outerText);
   };
+  const [clickedFavorite, setClickedFavorite] = useState(false);
   let { id } = useAppContext();
 
   // Number(spotId)
   id = Number(id);
 
   const ids = {
-    userId: id,
-    spotId: spotId,
+    user_id: id,
+    spot_id: spotId,
   };
-
 
   const sendFavoriteHandler = async (e) => {
     e.preventDefault();
+    setClickedFavorite(true)
     const { data } = await axios.post(
       "http://localhost:8000/api/favorite_spot/create/",
       ids
@@ -51,7 +49,7 @@ export const EventItem = ({
           className="favorite-btn"
           onClick={sendFavoriteHandler}
         >
-          お気に入りに追加
+         {!clickedFavorite ? "お気に入りに追加" : "お気に入り登録済"} 
         </button>
       </div>
     </div>

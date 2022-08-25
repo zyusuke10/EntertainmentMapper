@@ -13,13 +13,14 @@ import useGeolocation from "../hooks/useGeolocation";
 import * as L from "leaflet";
 import Markers from "./Markers";
 import { useAppContext } from "../context/appContext";
+import { AddMarker } from "./AddMarker";
 
-const Map = ({ data }) => {
-  const zoom = 10;
+const Map = ({ data, filteredList }) => {
+  const zoom = 8;
   const position = [35.68944, 139.69167]; //positionを使ってイベントや観光地の場所にピンを置く
   const location = useGeolocation();
   const currentPosition = [location.coordinates.lat, location.coordinates.lng];
-  const { isClear, setIsClear } = useAppContext();
+  const { eventClickName } = useAppContext();
 
   function ChangeView({ center, zoom }) {
     const map = useMap();
@@ -58,7 +59,7 @@ const Map = ({ data }) => {
             url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
             id="tl1"
           />
-          <LayersControl.Overlay name="Layer 1">
+          <LayersControl.Overlay name="周辺のイベント・観光地">
             <LayerGroup id="lg1" ref={firstOverlayRef}>
               {data.flat().map((item, index) => {
                 const {
@@ -104,6 +105,9 @@ const Map = ({ data }) => {
             </LayerGroup>
           </LayersControl.Overlay>
         </LayersControl>
+        {eventClickName && (
+          <AddMarker data={data} filteredList={filteredList} />
+        )}
         {location.loaded && !location.error && (
           <Marker position={currentPosition}>
             <Popup>現在位置</Popup>

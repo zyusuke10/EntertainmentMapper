@@ -8,14 +8,13 @@ import {
   LOGIN_USER_SUCCESS,
   LOGOUT_USER,
 } from "./action";
+import { Navigate } from "react-router-dom";
 
 const access = localStorage.getItem("access");
 const id = localStorage.getItem("id");
-// const userLocation = localStorage.getItem("location");
 
 const initialState = {
   isLoading: false,
-  //   user: user ? JSON.parse(user) : null,
   access: access || null,
   id: id || null,
 };
@@ -27,30 +26,6 @@ const AppProvider = ({ children }) => {
     baseURL: "http://localhost:8000/",
   });
 
-  // //request
-  // authFetch.interceptors.request.use(
-  //   (config) => {
-  //     config.headers.common["Authorization"] = `JWT ${initialState.access}`;
-  //     return config;
-  //   },
-  //   (error) => {
-  //     return Promise.reject(error);
-  //   }
-  // );
-
-  // //response
-  // authFetch.interceptors.response.use(
-  //   (response) => {
-  //     return response;
-  //   },
-  //   (error) => {
-  //     if (error.response.status === 401) {
-  //       logoutUser();
-  //     }
-  //     return Promise.reject(error);
-  //   }
-  // );
-
   const generalApiInterface = axios.create({
     baseURL: "http://localhost:8000/",
     headers: {
@@ -61,6 +36,8 @@ const AppProvider = ({ children }) => {
   const [state, dispatch] = useReducer(reducer, initialState);
   const [favoriteList, setFavoriteList] = useState([]);
   // const [isClear, setIsClear] = useState(false);
+
+  const [eventClickName, setEventClickName] = useState("");
 
   const addUserToLocalStorage = ({ id, access }) => {
     localStorage.setItem("access", access);
@@ -78,13 +55,7 @@ const AppProvider = ({ children }) => {
         "http://localhost:8000/api/register/",
         currentUser
       );
-      // console.log(response);
-      // const { user, token } = data;
-      // dispatch({
-      //   type: REGISTER_USER_SUCCESS,
-      //   payload: { user, token },
-      // });
-      // //   addUserToLocalStorage({ user, token });
+      dispatch({ type: REGISTER_USER_SUCCESS });
     } catch (error) {
       console.log(error.response);
     }
@@ -97,9 +68,7 @@ const AppProvider = ({ children }) => {
         "http://localhost:8000/api/auth/jwt/create",
         currentUser
       );
-      // console.log(response);
       const { access } = data;
-
       addUserToLocalStorage({ access });
 
       generalApiInterface
@@ -135,8 +104,8 @@ const AppProvider = ({ children }) => {
         favoriteList,
         setFavoriteList,
         logoutUser,
-        // isClear,
-        // setIsClear
+        eventClickName,
+        setEventClickName
       }}
     >
       {children}
