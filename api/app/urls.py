@@ -11,5 +11,5 @@ urlpatterns = [
     path('api/nearby_spot/', views.NearBySpotListCreate.as_view() ),
     path('api/favorite_spot/', views.FavoriteSpotListCreate.as_view() ),
     path('register/', CreateUserView.as_view(), name='register'),  # 追加
-    path('auth/', include('djoser.urls.jwt')),  # 追加
+    path('auth/', include('djoser.urls.jwt')),  # 追加 
 ]
