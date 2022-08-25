@@ -1,10 +1,10 @@
 import React, { Fragment } from "react";
 
-import "./App.css";
+import "./Alignment.css";
 import Icon from './google.png'
 
 
-const Home = () => {
+const Alignment = () => {
 
   return (
     <Fragment>
@@ -34,4 +34,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default Alignment;
