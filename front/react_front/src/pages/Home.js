@@ -170,6 +170,7 @@ const Home = () => {
               address={address}
               date={start_date}
               key={id}
+              spotId={id}
               addMarker={addMarker}
               data={data}
               eventClickName={eventClickName}
