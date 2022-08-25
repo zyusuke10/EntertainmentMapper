@@ -11,5 +11,13 @@ class SpotListCreate(generics.ListCreateAPIView):
     queryset = Spot.objects.all()
     serializer_class = SpotSerializer
 class FavoriteSpotListCreate(generics.ListCreateAPIView):
-    queryset = FavoriteSpot.objects.all()
-    serializer_class = FavoriteSpotSerializer
+    queryset = Spot.objects.all()
+    serializer_class = SpotSerializer
+def AddFavoriteSpot(request):
+    user = next(filter(lambda u: u.id == request.GET['user_id'], User.objects.all())), None
+    spot = next(filter(lambda s: s.id == request.GET['spot_id'], Spot.objects.all())), None
+    favorite_spot = FavoriteSpot(user.id, spot.id)
+    if favorite_spot in FavoriteSpot.objects.all():
+        return
+    favorite_spot.save
+
