@@ -1,4 +1,4 @@
-# Event Mapper
+# Entertainment Mapper
 
 ## start containers
 ```

@@ -60,6 +60,7 @@ class Spot(models.Model):
     end_date = models.DateField()
     explanation = models.TextField()
     picture = models.URLField()
+    isfavorite = models.IntegerField(default=0)
 
 class FavoriteSpot(models.Model):
     spot_id = models.PositiveIntegerField()
