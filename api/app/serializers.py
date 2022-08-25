@@ -1,13 +1,19 @@
 from rest_framework import serializers
 from .models import Profile, User, Spot, FavoriteSpot, RequestSpot, GenreType, SpotType
+from django.contrib.auth import update_session_auth_hash
+from rest_framework import serializers
+
+
 class ProfileSerializer(serializers.ModelSerializer):
     class Meta:
         model = Profile
         fields = ('id', 'name', 'email', 'message', 'created_at')
 class UserSerializer(serializers.ModelSerializer):
     class Meta:
-         model = User
-         fields = ('id', 'name', 'email', 'password', 'created_at')
+        model = User
+        fields = ('id', 'name', 'email', 'password', 'created_at')
+        def create(self, validated_data):
+            return User.objects.create_user(request_data=validated_data)
 class SpotSerializer(serializers.ModelSerializer):
     class Meta:
         model = Spot

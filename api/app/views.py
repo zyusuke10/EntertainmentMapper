@@ -7,6 +7,17 @@ from app.serializers import *
 from rest_framework import generics
 from django.db.models import Q
 
+from django.contrib.auth import authenticate
+from django.db import transaction
+from django.http import HttpResponse, Http404
+from rest_framework import authentication, permissions, generics
+from rest_framework_jwt.settings import api_settings
+from rest_framework.exceptions import AuthenticationFailed
+from rest_framework.response import Response
+from rest_framework import status, viewsets, filters
+from rest_framework.views import APIView
+from .serializers import UserSerializer
+
 class ProfileListCreate(generics.ListCreateAPIView):
     queryset = Profile.objects.all()
     serializer_class = ProfileSerializer
@@ -40,3 +51,17 @@ class SpotListCreate(generics.ListCreateAPIView):
 class FavoriteSpotListCreate(generics.ListCreateAPIView):
     queryset = FavoriteSpot.objects.all()
     serializer_class = FavoriteSpotSerializer
+
+# ユーザ作成のView(POST)
+class AuthRegister(generics.CreateAPIView):
+    permission_classes = (permissions.AllowAny,)
+    queryset = User.objects.all()
+    serializer_class = UserSerializer
+
+    @transaction.atomic
+    def post(self, request, format=None):
+        serializer = UserSerializer(data=request.data)
+        if serializer.is_valid():
+            serializer.save()
+            return Response(serializer.data, status=status.HTTP_201_CREATED)
+        return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)

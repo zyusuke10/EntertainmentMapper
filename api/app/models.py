@@ -1,5 +1,7 @@
 from django.db import models
 import datetime
+from django.utils import timezone
+
 class Profile(models.Model):
     name = models.CharField(max_length=64)
     email = models.EmailField()
@@ -25,6 +27,27 @@ class User(models.Model):
     email = models.EmailField()
     password = models.CharField(max_length=256)
     created_at = models.DateTimeField(auto_now_add=True)
+    
+    def create_user(self, request_data, **kwargs):
+        now = timezone.now()
+        if not request_data['email']:
+            raise ValueError('Users must have an email address.')
+
+        profile = ""
+        if request_data.get('profile'):
+            profile = request_data['profile']
+
+        user = self.model(
+            name=request_data['username'],
+            email=self.normalize_email(request_data['email']),
+            date_joined=now,
+            password=request_data['password'],
+            created_at=now
+        )
+
+        #user.set_password(request_data['password'])
+        user.save(using=self._db)
+        return user
 
 class Spot(models.Model):
     name = models.CharField(max_length=64)
