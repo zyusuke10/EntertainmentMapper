@@ -2,7 +2,7 @@ import React, { Fragment } from "react";
 
 import "./Alignment.css";
 import Icon from '../../image/google.png'
-
+import Menu from '../components/Menu';
 
 const Alignment = () => {
 
@@ -11,7 +11,7 @@ const Alignment = () => {
       <header>
         <div className="title">
           <h2>Googleカレンダー連携</h2>
-          
+          <Menu/>
         </div>
       </header>
 
