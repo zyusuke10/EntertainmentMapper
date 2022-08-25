@@ -19,3 +19,7 @@ color: deepskyblue;
 .event-item-location {
   margin-top: -1rem;
 }
+
+.event-item-container{
+  border-bottom: 1px solid black;
+}

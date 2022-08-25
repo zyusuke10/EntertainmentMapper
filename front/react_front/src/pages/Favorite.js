@@ -1,13 +1,23 @@
 import Menu from "../components/Menu";
-import React from "react";
+import React, { useState } from "react";
 import FavoriteItem from "../components/FavoriteItem";
-import axios from "axios"
+import axios from "axios";
+import { useAppContext } from "../context/appContext";
 
 export const Favorite = () => {
-    const fetchFavoriteData = async ()=>{
-        const {data} = await axios.get("")
-    }
+  const [favoriteData, setFavoriteData] = useState([]);
+  let { id } = useAppContext();
 
+  id = Number(id);
+
+  const fetchFavoriteData = async () => {
+    const { data } = await axios.get(
+      `http://localhost:8000/api/favorite_spot/index/?user_id=2`
+    );
+    setFavoriteData([data]);
+  };
+
+  fetchFavoriteData();
 
   return (
     <>
@@ -17,7 +27,11 @@ export const Favorite = () => {
           <Menu />
         </div>
       </header>
-      {<FavoriteItem />}
+
+      {favoriteData.flat().map((item) => {
+        const { name, date, address } = item;
+        return <FavoriteItem name={name} date={date} address={address} />;
+      })}
     </>
   );
 };

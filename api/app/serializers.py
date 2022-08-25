@@ -20,12 +20,14 @@ class SpotSerializer(serializers.ModelSerializer):
 class FavoriteSpotSerializer(serializers.ModelSerializer):
     class Meta:
         model = FavoriteSpot
-        fields = ('id', 'spot_id', 'user_id')
-
-    spot_id = serializers.IntegerField()
-    user_id = serializers.IntegerField()
+        fields = ('id', 'spot_id', 'user')
     def create(self, validated_data):
         return FavoriteSpot.objects.create(**validated_data)
+
+class RequestFavoriteSpotSerializer(serializers.Serializer):
+    spot_id = serializers.IntegerField()
+    user= serializers.IntegerField()
+
         
 class RequestSpotSerializer(serializers.Serializer):
     genre = serializers.ChoiceField(choices=GenreType.choices, required=False)
