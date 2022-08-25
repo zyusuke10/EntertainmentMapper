@@ -4211,38 +4211,6 @@
         "model": "app.spot",
         "pk": 326,
         "fields": {
-            "name": "不忍池弁天堂",
-            "address": "東京都台東区上野公園2-1",
-            "phone_number": "None",
-            "longitude": 35.712289,
-            "latitude": 139.772007,
-            "start_date": "2020-01-01",
-            "end_date": "2020-01-01",
-            "genre": "観光地",
-            "explanation": "None",
-            "picture": "https://cdn.4travel.jp/img/thumbnails/imk/tips_pict/18/75/94/650x450_18759492.jpg?updated_at=1658310639"
-        }
-    },
-    {
-        "model": "app.spot",
-        "pk": 327,
-        "fields": {
-            "name": "両国国技館",
-            "address": "東京都墨田区横網1-3-28",
-            "phone_number": "None",
-            "longitude": 35.696953,
-            "latitude": 139.793488,
-            "start_date": "2020-01-01",
-            "end_date": "2020-01-01",
-            "genre": "観光地",
-            "explanation": "None",
-            "picture": "https://cdn.4travel.jp/img/thumbnails/imk/tips_pict/13/09/96/650x450_13099658.jpg?updated_at=1440311570"
-        }
-    },
-    {
-        "model": "app.spot",
-        "pk": 328,
-        "fields": {
             "name": "マクセルアクアパーク品川",
             "address": "東京都港区高輪4-10-30",
             "phone_number": "None",
@@ -4257,7 +4225,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 329,
+        "pk": 327,
         "fields": {
             "name": "不忍池弁天堂",
             "address": "東京都台東区上野公園2-1",
@@ -4273,7 +4241,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 330,
+        "pk": 328,
         "fields": {
             "name": "両国国技館",
             "address": "東京都墨田区横網1-3-28",
@@ -4289,7 +4257,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 331,
+        "pk": 329,
         "fields": {
             "name": "丸の内仲通り",
             "address": "東京都千代田区丸の内1‐3丁目",
@@ -4305,23 +4273,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 332,
-        "fields": {
-            "name": "浅草神社(三社さま)",
-            "address": "東京都台東区浅草2-3-1",
-            "phone_number": "None",
-            "longitude": 35.713428,
-            "latitude": 139.796664,
-            "start_date": "2020-01-01",
-            "end_date": "2020-01-01",
-            "genre": "観光地",
-            "explanation": "None",
-            "picture": "https://cdn.4travel.jp/img/thumbnails/imk/tips_pict/18/82/85/650x450_18828542.jpg?updated_at=1660726166"
-        }
-    },
-    {
-        "model": "app.spot",
-        "pk": 333,
+        "pk": 330,
         "fields": {
             "name": "伝法院通り",
             "address": "東京都台東区浅草2丁目",
@@ -4337,7 +4289,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 334,
+        "pk": 331,
         "fields": {
             "name": "芝公園",
             "address": "東京都港区芝公園1～4丁目",
@@ -4353,23 +4305,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 335,
-        "fields": {
-            "name": "皇居一般参観",
-            "address": "東京都千代田区千代田1-1",
-            "phone_number": "None",
-            "longitude": 35.685864,
-            "latitude": 139.749596,
-            "start_date": "2020-01-01",
-            "end_date": "2020-01-01",
-            "genre": "観光地",
-            "explanation": "None",
-            "picture": "https://cdn.4travel.jp/img/thumbnails/imk/tips_pict/18/73/18/650x450_18731855.jpg?updated_at=1656751754"
-        }
-    },
-    {
-        "model": "app.spot",
-        "pk": 336,
+        "pk": 332,
         "fields": {
             "name": "羽田空港第2旅客ターミナル展望デッキ",
             "address": "東京都大田区羽田空港3-3-2",
@@ -4385,7 +4321,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 337,
+        "pk": 333,
         "fields": {
             "name": "渋谷ヒカリエ(シンクス/ShinQs)",
             "address": "東京都渋谷区渋谷2-21-1",
@@ -4401,7 +4337,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 338,
+        "pk": 334,
         "fields": {
             "name": "皇居一般参観",
             "address": "東京都千代田区千代田1-1",
@@ -4417,7 +4353,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 339,
+        "pk": 335,
         "fields": {
             "name": "浅草神社(三社さま)",
             "address": "東京都台東区浅草2-3-1",
@@ -4433,7 +4369,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 340,
+        "pk": 336,
         "fields": {
             "name": "東京ミッドタウン日比谷",
             "address": "東京都千代田区有楽町1-1-2",
@@ -4449,7 +4385,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 341,
+        "pk": 337,
         "fields": {
             "name": "江戸小路（羽田空港第3ターミナル）",
             "address": "東京都大田区羽田空港２丁目",
@@ -4465,7 +4401,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 342,
+        "pk": 338,
         "fields": {
             "name": "羽田空港国際線JALサクララウンジ",
             "address": "東京都大田区羽田空港2丁目6-5",
@@ -4481,7 +4417,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 343,
+        "pk": 339,
         "fields": {
             "name": "亀戸天神社",
             "address": "東京都江東区亀戸3-6-1",
@@ -4497,7 +4433,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 344,
+        "pk": 340,
         "fields": {
             "name": "国会議事堂",
             "address": "東京都千代田区永田町1-7",
@@ -4513,7 +4449,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 345,
+        "pk": 341,
         "fields": {
             "name": "恵比寿ガーデンプレイス",
             "address": "東京都渋谷区恵比寿4-20",
@@ -4529,7 +4465,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 346,
+        "pk": 342,
         "fields": {
             "name": "小石川後楽園",
             "address": "東京都文京区後楽1-6-6",
@@ -4545,7 +4481,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 347,
+        "pk": 343,
         "fields": {
             "name": "フジテレビ本社ビル",
             "address": "東京都港区台場２丁目４-８",
@@ -4561,7 +4497,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 348,
+        "pk": 344,
         "fields": {
             "name": "吾妻橋",
             "address": "東京都墨田区吾妻橋1丁目",
@@ -4577,7 +4513,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 349,
+        "pk": 345,
         "fields": {
             "name": "新宿高島屋",
             "address": "東京都渋谷区千駄ヶ谷5-24-2",
@@ -4593,7 +4529,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 350,
+        "pk": 346,
         "fields": {
             "name": "羽田空港国内線第1ターミナル展望デッキ(ガリバーズデッキ)",
             "address": "東京都大田区羽田空港3-3-2",
@@ -4609,7 +4545,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 351,
+        "pk": 347,
         "fields": {
             "name": "宝蔵門",
             "address": "東京都台東区浅草2-3-2",
@@ -4625,7 +4561,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 352,
+        "pk": 348,
         "fields": {
             "name": "銀座わしたショップ本店",
             "address": "東京都中央区銀座1-3-9",
@@ -4641,7 +4577,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 353,
+        "pk": 349,
         "fields": {
             "name": "パワーラウンジノース",
             "address": "東京都大田区羽田空港3-4-2",
@@ -4657,7 +4593,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 354,
+        "pk": 350,
         "fields": {
             "name": "愛宕神社(東京都港区)",
             "address": "東京都港区愛宕1-5-3",
@@ -4673,7 +4609,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 355,
+        "pk": 351,
         "fields": {
             "name": "湯島聖堂",
             "address": "東京都文京区湯島1-4-25",
@@ -4689,7 +4625,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 356,
+        "pk": 352,
         "fields": {
             "name": "東京駅一番街",
             "address": "東京都千代田区丸の内1-9-1",
@@ -4705,7 +4641,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 357,
+        "pk": 353,
         "fields": {
             "name": "隅田公園",
             "address": "東京都墨田区向島1，2，5丁目",
@@ -4721,7 +4657,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 358,
+        "pk": 354,
         "fields": {
             "name": "お台場海浜公園",
             "address": "東京都港区台場1-4-1",
@@ -4737,7 +4673,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 359,
+        "pk": 355,
         "fields": {
             "name": "ニコライ堂",
             "address": "東京都千代田区神田駿河台4-1",
@@ -4753,7 +4689,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 360,
+        "pk": 356,
         "fields": {
             "name": "東急プラザ銀座",
             "address": "東京都中央区銀座5-2-1",
@@ -4769,7 +4705,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 361,
+        "pk": 357,
         "fields": {
             "name": "明治神宮野球場",
             "address": "東京都新宿区霞ヶ丘町3-1",
@@ -4785,7 +4721,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 362,
+        "pk": 358,
         "fields": {
             "name": "旧岩崎邸庭園",
             "address": "東京都台東区池之端1-3-45",
@@ -4801,7 +4737,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 363,
+        "pk": 359,
         "fields": {
             "name": "小田急百貨店(新宿店)",
             "address": "東京都新宿区西新宿1-1-3",
@@ -4817,7 +4753,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 364,
+        "pk": 360,
         "fields": {
             "name": "飛鳥山公園",
             "address": "東京都北区王子1-1-3",
@@ -4833,7 +4769,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 365,
+        "pk": 361,
         "fields": {
             "name": "富岡八幡宮",
             "address": "東京都江東区富岡1-20-3",
@@ -4849,7 +4785,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 366,
+        "pk": 362,
         "fields": {
             "name": "二重橋",
             "address": "東京都千代田区千代田",
@@ -4865,7 +4801,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 367,
+        "pk": 363,
         "fields": {
             "name": "東京都葛西臨海水族園",
             "address": "東京都江戸川区臨海町6-2-3",
@@ -4881,7 +4817,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 368,
+        "pk": 364,
         "fields": {
             "name": "福徳神社(芽吹稲荷)",
             "address": "東京都中央区日本橋本町2-4-14",
@@ -4897,7 +4833,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 369,
+        "pk": 365,
         "fields": {
             "name": "東京ビッグサイト(東京国際展示場)",
             "address": "東京都江東区有明3-11-1",
@@ -4913,7 +4849,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 370,
+        "pk": 366,
         "fields": {
             "name": "巣鴨地蔵通り商店街",
             "address": "東京都豊島区巣鴨",
@@ -4929,7 +4865,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 371,
+        "pk": 367,
         "fields": {
             "name": "東京駅丸の内駅前広場",
             "address": "東京都千代田区丸の内1-9",
@@ -4945,7 +4881,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 372,
+        "pk": 368,
         "fields": {
             "name": "ニュー新橋ビル",
             "address": "東京都港区新橋2-16-1",
@@ -4961,7 +4897,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 373,
+        "pk": 369,
         "fields": {
             "name": "旧古河庭園",
             "address": "東京都北区西ケ原1-27-39",
@@ -4977,7 +4913,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 374,
+        "pk": 370,
         "fields": {
             "name": "エキュート品川",
             "address": "東京都港区高輪3-26-27",
@@ -4993,7 +4929,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 375,
+        "pk": 371,
         "fields": {
             "name": "表参道ヒルズ",
             "address": "東京都渋谷区神宮前４丁目１２－１０",
@@ -5009,7 +4945,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 376,
+        "pk": 372,
         "fields": {
             "name": "東京大学",
             "address": "東京都文京区本郷7-3-1",
@@ -5025,7 +4961,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 377,
+        "pk": 373,
         "fields": {
             "name": "サンシャイン水族館",
             "address": "東京都豊島区東池袋3-1ワールドインポートマートビル屋上",
@@ -5041,7 +4977,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 378,
+        "pk": 374,
         "fields": {
             "name": "江戸城",
             "address": "東京都千代田区千代田",
@@ -5057,7 +4993,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 379,
+        "pk": 375,
         "fields": {
             "name": "丸の内ブリックスクエア",
             "address": "東京都千代田区丸の内2-6-1",
@@ -5073,7 +5009,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 380,
+        "pk": 376,
         "fields": {
             "name": "かっぱ橋道具街",
             "address": "東京都台東区松が谷",
@@ -5089,7 +5025,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 381,
+        "pk": 377,
         "fields": {
             "name": "谷中銀座商店街",
             "address": "東京都台東区谷中3-13-1",
@@ -5105,7 +5041,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 382,
+        "pk": 378,
         "fields": {
             "name": "上野の森美術館",
             "address": "東京都台東区上野公園1-2",
@@ -5121,7 +5057,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 383,
+        "pk": 379,
         "fields": {
             "name": "花園神社(東京都新宿区)",
             "address": "東京都新宿区新宿5-17-3",
@@ -5137,7 +5073,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 384,
+        "pk": 380,
         "fields": {
             "name": "帝釈天参道",
             "address": "東京都葛飾区柴又7",
@@ -5153,7 +5089,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 385,
+        "pk": 381,
         "fields": {
             "name": "東武百貨店(池袋店)",
             "address": "東京都豊島区西池袋1-1-25",
@@ -5169,7 +5105,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 386,
+        "pk": 382,
         "fields": {
             "name": "アサヒビール吾妻橋ビル",
             "address": "東京都墨田区吾妻橋1-23-1",
@@ -5185,7 +5121,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 387,
+        "pk": 383,
         "fields": {
             "name": "渋谷スクランブルスクエア",
             "address": "東京都渋谷区渋谷2-24-12",
@@ -5201,7 +5137,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 388,
+        "pk": 384,
         "fields": {
             "name": "花園稲荷神社",
             "address": "東京都台東区上野公園4-17",
@@ -5217,39 +5153,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 389,
-        "fields": {
-            "name": "渋谷スクランブルスクエア",
-            "address": "東京都渋谷区渋谷2-24-12",
-            "phone_number": "None",
-            "longitude": 35.658447,
-            "latitude": 139.702164,
-            "start_date": "2020-01-01",
-            "end_date": "2020-01-01",
-            "genre": "観光地",
-            "explanation": "None",
-            "picture": "https://cdn.4travel.jp/img/thumbnails/imk/tips_pict/18/73/51/650x450_18735169.jpg?updated_at=1656885795"
-        }
-    },
-    {
-        "model": "app.spot",
-        "pk": 390,
-        "fields": {
-            "name": "花園稲荷神社",
-            "address": "東京都台東区上野公園4-17",
-            "phone_number": "None",
-            "longitude": 35.713745,
-            "latitude": 139.772217,
-            "start_date": "2020-01-01",
-            "end_date": "2020-01-01",
-            "genre": "観光地",
-            "explanation": "None",
-            "picture": "https://cdn.4travel.jp/img/thumbnails/imk/tips_pict/18/82/62/650x450_18826298.jpg?updated_at=1660638299"
-        }
-    },
-    {
-        "model": "app.spot",
-        "pk": 391,
+        "pk": 385,
         "fields": {
             "name": "東京キャラクターストリート",
             "address": "東京都千代田区丸の内1-9-1",
@@ -5265,7 +5169,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 392,
+        "pk": 386,
         "fields": {
             "name": "西武(池袋店)",
             "address": "東京都豊島区南池袋1-28-1",
@@ -5281,7 +5185,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 393,
+        "pk": 387,
         "fields": {
             "name": "渋谷マークシティ",
             "address": "東京都渋谷区道玄坂1-12-1",
@@ -5297,7 +5201,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 394,
+        "pk": 388,
         "fields": {
             "name": "虎ノ門ヒルズ",
             "address": "東京都港区虎ノ門1丁目",
@@ -5313,7 +5217,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 395,
+        "pk": 389,
         "fields": {
             "name": "聖橋",
             "address": "東京都千代田区・文京区",
@@ -5329,23 +5233,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 396,
-        "fields": {
-            "name": "ビックカメラ新宿東口店",
-            "address": "東京都新宿区新宿3-29-1",
-            "phone_number": "None",
-            "longitude": 35.69138,
-            "latitude": 139.702996,
-            "start_date": "2020-01-01",
-            "end_date": "2020-01-01",
-            "genre": "観光地",
-            "explanation": "None",
-            "picture": "https://cdn.4travel.jp/img/thumbnails/imk/tips_pict/18/81/83/650x450_18818311.jpg?updated_at=1660363456"
-        }
-    },
-    {
-        "model": "app.spot",
-        "pk": 397,
+        "pk": 390,
         "fields": {
             "name": "八重洲地下街(ヤエチカ)",
             "address": "東京都中央区八重洲2-1-1",
@@ -5361,7 +5249,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 398,
+        "pk": 391,
         "fields": {
             "name": "隅田川テラス",
             "address": "東京都台東区・墨田区　隅田川両岸",
@@ -5377,7 +5265,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 399,
+        "pk": 392,
         "fields": {
             "name": "ビックカメラ新宿東口店",
             "address": "東京都新宿区新宿3-29-1",
@@ -5393,7 +5281,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 400,
+        "pk": 393,
         "fields": {
             "name": "寛永寺",
             "address": "東京都台東区上野桜木1丁目14-11",
@@ -5409,7 +5297,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 401,
+        "pk": 394,
         "fields": {
             "name": "烏森神社",
             "address": "東京都港区新橋2-15-5",
@@ -5425,7 +5313,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 402,
+        "pk": 395,
         "fields": {
             "name": "浅草花やしき",
             "address": "東京都台東区浅草2-28-1",
@@ -5441,7 +5329,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 403,
+        "pk": 396,
         "fields": {
             "name": "丸の内イルミネーション",
             "address": "東京都千代田区丸の内",
@@ -5457,7 +5345,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 404,
+        "pk": 397,
         "fields": {
             "name": "新宿中央公園",
             "address": "東京都新宿区西新宿2-11",
@@ -5473,7 +5361,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 405,
+        "pk": 398,
         "fields": {
             "name": "丸の内オアゾ",
             "address": "東京都千代田区丸の内1-6-4",
@@ -5489,7 +5377,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 406,
+        "pk": 399,
         "fields": {
             "name": "羽田空港内ブルースカイ",
             "address": "東京都大田区羽田空港",
@@ -5505,23 +5393,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 407,
-        "fields": {
-            "name": "羽田空港内ブルースカイ",
-            "address": "東京都大田区羽田空港",
-            "phone_number": "None",
-            "longitude": 35.543198,
-            "latitude": 139.788214,
-            "start_date": "2020-01-01",
-            "end_date": "2020-01-01",
-            "genre": "観光地",
-            "explanation": "None",
-            "picture": "https://cdn.4travel.jp/img/thumbnails/imk/tips_pict/18/84/02/650x450_18840251.jpg?updated_at=1661152348"
-        }
-    },
-    {
-        "model": "app.spot",
-        "pk": 408,
+        "pk": 400,
         "fields": {
             "name": "松坂屋(上野店)",
             "address": "東京都台東区上野3-29-5",
@@ -5537,7 +5409,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 409,
+        "pk": 401,
         "fields": {
             "name": "深川不動堂",
             "address": "東京都江東区富岡1-17-13",
@@ -5553,7 +5425,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 410,
+        "pk": 402,
         "fields": {
             "name": "旧安田庭園",
             "address": "東京都墨田区横網1-12-1",
@@ -5569,7 +5441,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 411,
+        "pk": 403,
         "fields": {
             "name": "日本武道館",
             "address": "東京都千代田区北の丸公園",
@@ -5585,7 +5457,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 412,
+        "pk": 404,
         "fields": {
             "name": "京王百貨店(新宿店)",
             "address": "東京都新宿区西新宿1-1-4",
@@ -5601,7 +5473,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 413,
+        "pk": 405,
         "fields": {
             "name": "渋谷センター街",
             "address": "東京都渋谷区宇田川町",
@@ -5617,7 +5489,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 414,
+        "pk": 406,
         "fields": {
             "name": "日本銀行",
             "address": "東京都中央区日本橋本石町2-1-1",
@@ -5633,7 +5505,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 415,
+        "pk": 407,
         "fields": {
             "name": "サンシャインシティ",
             "address": "東京都豊島区東池袋3-1",
@@ -5649,7 +5521,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 416,
+        "pk": 408,
         "fields": {
             "name": "深大寺",
             "address": "東京都調布市深大寺元町5-15-1",
@@ -5665,7 +5537,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 417,
+        "pk": 409,
         "fields": {
             "name": "高尾山薬王院",
             "address": "東京都八王子市高尾町2177",
@@ -5681,7 +5553,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 418,
+        "pk": 410,
         "fields": {
             "name": "アトレ上野",
             "address": "東京都台東区上野7-1-1",
@@ -5697,23 +5569,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 419,
-        "fields": {
-            "name": "泉岳寺",
-            "address": "東京都港区高輪2-11-1",
-            "phone_number": "None",
-            "longitude": 35.637504,
-            "latitude": 139.736123,
-            "start_date": "2020-01-01",
-            "end_date": "2020-01-01",
-            "genre": "観光地",
-            "explanation": "None",
-            "picture": "https://cdn.4travel.jp/img/thumbnails/imk/tips_pict/12/58/98/650x450_12589816.jpg?updated_at=1424775529"
-        }
-    },
-    {
-        "model": "app.spot",
-        "pk": 420,
+        "pk": 411,
         "fields": {
             "name": "まるごと高知",
             "address": "東京都中央区銀座1-3-13",
@@ -5729,7 +5585,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 421,
+        "pk": 412,
         "fields": {
             "name": "泉岳寺",
             "address": "東京都港区高輪2-11-1",
@@ -5745,7 +5601,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 422,
+        "pk": 413,
         "fields": {
             "name": "竹下通り",
             "address": "東京都渋谷区神宮前1",
@@ -5761,7 +5617,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 423,
+        "pk": 414,
         "fields": {
             "name": "東京都庭園美術館",
             "address": "東京都港区白金台5-21-9",
@@ -5777,7 +5633,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 424,
+        "pk": 415,
         "fields": {
             "name": "高岩寺(とげぬき地蔵)",
             "address": "東京都豊島区巣鴨3-35-2",
@@ -5793,7 +5649,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 425,
+        "pk": 416,
         "fields": {
             "name": "自由の女神像",
             "address": "東京都港区台場1-4-1",
@@ -5809,7 +5665,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 426,
+        "pk": 417,
         "fields": {
             "name": "勝鬨橋",
             "address": "東京都中央区築地6丁目～勝どき1丁目",
@@ -5825,7 +5681,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 427,
+        "pk": 418,
         "fields": {
             "name": "コレド日本橋",
             "address": "東京都中央区日本橋1-4-1",
@@ -5841,7 +5697,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 428,
+        "pk": 419,
         "fields": {
             "name": "旧芝離宮恩賜庭園",
             "address": "東京都港区海岸1-4-1",
@@ -5857,7 +5713,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 429,
+        "pk": 420,
         "fields": {
             "name": "POWERLOUNGESOUTH(第1旅客ターミナル2F南ウィング)",
             "address": "東京都大田区羽田空港3-3-2東京国際空港第1旅客ターミナルビル2F",
@@ -5873,7 +5729,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 430,
+        "pk": 421,
         "fields": {
             "name": "靖国神社遊就館",
             "address": "東京都千代田区九段北３-１-１",
@@ -5889,7 +5745,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 431,
+        "pk": 422,
         "fields": {
             "name": "ららぽーと豊洲",
             "address": "東京都江東区豊洲2-4-9",
@@ -5905,7 +5761,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 432,
+        "pk": 423,
         "fields": {
             "name": "浅草新仲見世商店街",
             "address": "東京都台東区浅草1-39-2",
@@ -5921,7 +5777,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 433,
+        "pk": 424,
         "fields": {
             "name": "清澄庭園",
             "address": "東京都江東区清澄3-3-9",
@@ -5937,7 +5793,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 434,
+        "pk": 425,
         "fields": {
             "name": "東京ミッドタウンクリスマスイルミネーション",
             "address": "東京都港区赤坂9-7-1",
@@ -5953,39 +5809,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 435,
-        "fields": {
-            "name": "東京都多摩動物公園",
-            "address": "東京都日野市程久保7-1-1",
-            "phone_number": "None",
-            "longitude": 35.649556,
-            "latitude": 139.402256,
-            "start_date": "2020-01-01",
-            "end_date": "2020-01-01",
-            "genre": "観光地",
-            "explanation": "None",
-            "picture": "https://cdn.4travel.jp/img/thumbnails/imk/tips_pict/18/76/85/650x450_18768525.jpg?updated_at=1658394333"
-        }
-    },
-    {
-        "model": "app.spot",
-        "pk": 436,
-        "fields": {
-            "name": "羽田空港第一ターミナル　JAL国内線ダイヤモンドプレミアラウンジ",
-            "address": "東京都大田区羽田空港3-3-2",
-            "phone_number": "None",
-            "longitude": 35.548759,
-            "latitude": 139.783875,
-            "start_date": "2020-01-01",
-            "end_date": "2020-01-01",
-            "genre": "観光地",
-            "explanation": "None",
-            "picture": "https://cdn.4travel.jp/img/thumbnails/imk/tips_pict/18/82/92/650x450_18829222.jpg?updated_at=1660744452"
-        }
-    },
-    {
-        "model": "app.spot",
-        "pk": 437,
+        "pk": 426,
         "fields": {
             "name": "高幡不動尊金剛寺",
             "address": "東京都日野市高幡733",
@@ -6001,7 +5825,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 438,
+        "pk": 427,
         "fields": {
             "name": "数寄屋橋公園",
             "address": "東京都中央区銀座5-1",
@@ -6017,7 +5841,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 439,
+        "pk": 428,
         "fields": {
             "name": "有楽町イトシア",
             "address": "東京都千代田区有楽町2丁目7番1号",
@@ -6033,7 +5857,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 440,
+        "pk": 429,
         "fields": {
             "name": "羽田空港第一ターミナル　JAL国内線ダイヤモンドプレミアラウンジ",
             "address": "東京都大田区羽田空港3-3-2",
@@ -6049,7 +5873,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 441,
+        "pk": 430,
         "fields": {
             "name": "日本橋麒麟像",
             "address": "東京都中央区日本橋1-1",
@@ -6065,7 +5889,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 442,
+        "pk": 431,
         "fields": {
             "name": "ルミネ有楽町店",
             "address": "東京都千代田区有楽町2",
@@ -6081,7 +5905,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 443,
+        "pk": 432,
         "fields": {
             "name": "東京都多摩動物公園",
             "address": "東京都日野市程久保7-1-1",
@@ -6097,7 +5921,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 444,
+        "pk": 433,
         "fields": {
             "name": "二子玉川ライズショッピングセンター",
             "address": "東京都世田谷区玉川2-21-1",
@@ -6113,7 +5937,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 445,
+        "pk": 434,
         "fields": {
             "name": "パレットタウン大観覧車",
             "address": "東京都江東区青海1丁目パレットタウン",
@@ -6129,7 +5953,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 446,
+        "pk": 435,
         "fields": {
             "name": "羽田空港国内線ラウンジ南ウィング(サクララウンジ)",
             "address": "東京都大田区羽田空港3-3-2",
@@ -6145,7 +5969,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 447,
+        "pk": 436,
         "fields": {
             "name": "キッザニア東京",
             "address": "東京都江東区豊洲2-4-9　アーバンドック",
@@ -6161,7 +5985,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 448,
+        "pk": 437,
         "fields": {
             "name": "江戸東京たてもの園",
             "address": "東京都小金井市桜町3-7-1",
@@ -6177,7 +6001,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 449,
+        "pk": 438,
         "fields": {
             "name": "無印良品銀座",
             "address": "東京都中央区銀座3-103-3、4、6、14、15、21、40",
@@ -6193,7 +6017,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 450,
+        "pk": 439,
         "fields": {
             "name": "赤城神社",
             "address": "東京都新宿区赤城元町1-10",
@@ -6209,23 +6033,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 451,
-        "fields": {
-            "name": "日本科学未来館",
-            "address": "東京都江東区青海2-41",
-            "phone_number": "None",
-            "longitude": 35.617899,
-            "latitude": 139.77671,
-            "start_date": "2020-01-01",
-            "end_date": "2020-01-01",
-            "genre": "観光地",
-            "explanation": "None",
-            "picture": "https://cdn.4travel.jp/img/thumbnails/imk/tips_pict/10/36/13/650x450_10361342.jpg?updated_at=1339579390"
-        }
-    },
-    {
-        "model": "app.spot",
-        "pk": 452,
+        "pk": 440,
         "fields": {
             "name": "夕やけだんだん",
             "address": "東京都荒川区西日暮里3-13",
@@ -6241,7 +6049,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 453,
+        "pk": 441,
         "fields": {
             "name": "池上本門寺",
             "address": "東京都大田区池上1-1-1",
@@ -6257,7 +6065,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 454,
+        "pk": 442,
         "fields": {
             "name": "日本科学未来館",
             "address": "東京都江東区青海2-41",
@@ -6273,7 +6081,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 455,
+        "pk": 443,
         "fields": {
             "name": "ライオン像日本橋三越店",
             "address": "東京都中央区日本橋室町1-4-1",
@@ -6289,7 +6097,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 456,
+        "pk": 444,
         "fields": {
             "name": "国際子ども図書館",
             "address": "東京都台東区上野公園",
@@ -6305,7 +6113,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 457,
+        "pk": 445,
         "fields": {
             "name": "小網神社",
             "address": "東京都中央区日本橋小網町16-23",
@@ -6321,7 +6129,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 458,
+        "pk": 446,
         "fields": {
             "name": "豊川稲荷東京別院",
             "address": "東京都港区元赤坂1-4-7",
@@ -6337,7 +6145,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 459,
+        "pk": 447,
         "fields": {
             "name": "ひろしまブランドショップTAU",
             "address": "東京都中央区銀座1-6-10",
@@ -6353,7 +6161,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 460,
+        "pk": 448,
         "fields": {
             "name": "東京国立近代美術館",
             "address": "東京都千代田区北の丸公園3",
@@ -6369,7 +6177,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 461,
+        "pk": 449,
         "fields": {
             "name": "銀座並木通り",
             "address": "東京都中央区銀座",
@@ -6385,7 +6193,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 462,
+        "pk": 450,
         "fields": {
             "name": "はねだ日本橋",
             "address": "東京都大田区羽田空港2-6-5",
@@ -6401,39 +6209,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 463,
-        "fields": {
-            "name": "ゴジラ像",
-            "address": "東京都千代田区有楽町1-2-2",
-            "phone_number": "None",
-            "longitude": 35.673092,
-            "latitude": 139.75992,
-            "start_date": "2020-01-01",
-            "end_date": "2020-01-01",
-            "genre": "観光地",
-            "explanation": "None",
-            "picture": "https://cdn.4travel.jp/img/thumbnails/imk/tips_pict/18/80/47/650x450_18804751.jpg?updated_at=1659854774"
-        }
-    },
-    {
-        "model": "app.spot",
-        "pk": 464,
-        "fields": {
-            "name": "日本銀行金融研究所貨幣博物館",
-            "address": "東京都中央区日本橋本石町1-3-1日本銀行分館内",
-            "phone_number": "None",
-            "longitude": 35.685482,
-            "latitude": 139.77166,
-            "start_date": "2020-01-01",
-            "end_date": "2020-01-01",
-            "genre": "観光地",
-            "explanation": "None",
-            "picture": "https://cdn.4travel.jp/img/thumbnails/imk/tips_pict/11/16/48/650x450_11164843.jpg?updated_at=1377740430"
-        }
-    },
-    {
-        "model": "app.spot",
-        "pk": 465,
+        "pk": 451,
         "fields": {
             "name": "東京ジャーミイ",
             "address": "東京都渋谷区大山町1-19",
@@ -6449,7 +6225,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 466,
+        "pk": 452,
         "fields": {
             "name": "羽田空港国際線ANAラウンジ(110番ゲート付近)",
             "address": "東京都大田区羽田空港2-6-5",
@@ -6465,7 +6241,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 467,
+        "pk": 453,
         "fields": {
             "name": "秋葉原電気街",
             "address": "東京都千代田区外神田界隈",
@@ -6481,7 +6257,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 468,
+        "pk": 454,
         "fields": {
             "name": "日本国道路元標",
             "address": "東京都中央区日本橋１丁目",
@@ -6497,7 +6273,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 469,
+        "pk": 455,
         "fields": {
             "name": "ゴジラ像",
             "address": "東京都千代田区有楽町1-2-2",
@@ -6513,7 +6289,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 470,
+        "pk": 456,
         "fields": {
             "name": "日本銀行金融研究所貨幣博物館",
             "address": "東京都中央区日本橋本石町1-3-1日本銀行分館内",
@@ -6529,7 +6305,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 471,
+        "pk": 457,
         "fields": {
             "name": "松屋浅草",
             "address": "東京都台東区花川戸1－4－1",
@@ -6545,7 +6321,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 472,
+        "pk": 458,
         "fields": {
             "name": "五條天神社",
             "address": "東京都台東区上野公園4-17",
@@ -6561,7 +6337,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 473,
+        "pk": 459,
         "fields": {
             "name": "けやき坂",
             "address": "東京都港区六本木6丁目9番、12番の間",
@@ -6577,7 +6353,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 474,
+        "pk": 460,
         "fields": {
             "name": "善国寺",
             "address": "東京都新宿区神楽坂5-36",
@@ -6593,7 +6369,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 475,
+        "pk": 461,
         "fields": {
             "name": "NISSANCROSSING",
             "address": "東京都中央区銀座5-8-1",
@@ -6609,7 +6385,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 476,
+        "pk": 462,
         "fields": {
             "name": "二天門",
             "address": "東京都台東区浅草2-3-3",
@@ -6625,7 +6401,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 477,
+        "pk": 463,
         "fields": {
             "name": "明治生命館",
             "address": "東京都千代田区丸の内2-1-1",
@@ -6641,7 +6417,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 478,
+        "pk": 464,
         "fields": {
             "name": "新宿思い出横丁",
             "address": "東京都新宿区西新宿1",
@@ -6657,7 +6433,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 479,
+        "pk": 465,
         "fields": {
             "name": "羽田空港エアポートラウンジ(第2旅客ターミナル2F　ゲートラウンジ)",
             "address": "東京都大田区羽田空港3-4-2",
@@ -6673,7 +6449,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 480,
+        "pk": 466,
         "fields": {
             "name": "井の頭自然文化園",
             "address": "東京都武蔵野市御殿山1-17-6",
@@ -6689,7 +6465,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 481,
+        "pk": 467,
         "fields": {
             "name": "穴八幡宮",
             "address": "東京都新宿区西早稲田2-1-11",
@@ -6705,7 +6481,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 482,
+        "pk": 468,
         "fields": {
             "name": "大手門",
             "address": "東京都千代田区千代田１",
@@ -6721,7 +6497,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 483,
+        "pk": 469,
         "fields": {
             "name": "アトレ恵比寿",
             "address": "東京都渋谷区恵比寿南1-5-5",
@@ -6737,7 +6513,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 484,
+        "pk": 470,
         "fields": {
             "name": "錦糸公園",
             "address": "東京都墨田区錦糸4丁目-15-1",
@@ -6753,7 +6529,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 485,
+        "pk": 471,
         "fields": {
             "name": "アーティゾン美術館",
             "address": "東京都中央区京橋1-7-2",
@@ -6769,7 +6545,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 486,
+        "pk": 472,
         "fields": {
             "name": "南町田グランベリーパーク",
             "address": "東京都町田市鶴間3-4-1",
@@ -6785,7 +6561,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 487,
+        "pk": 473,
         "fields": {
             "name": "東京中央郵便局",
             "address": "東京都千代田区丸の内2-7-2",
@@ -6801,7 +6577,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 488,
+        "pk": 474,
         "fields": {
             "name": "東京文化会館",
             "address": "東京都台東区上野公園5-45",
@@ -6817,7 +6593,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 489,
+        "pk": 475,
         "fields": {
             "name": "人形町商店街-からくり櫓",
             "address": "中央区日本橋人形町2丁目",
@@ -6833,7 +6609,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 490,
+        "pk": 476,
         "fields": {
             "name": "葛飾柴又寅さん記念館",
             "address": "東京都葛飾区柴又6丁目22番19号",
@@ -6849,7 +6625,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 491,
+        "pk": 477,
         "fields": {
             "name": "警察博物館",
             "address": "東京都中央区京橋3-5-1",
@@ -6865,7 +6641,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 492,
+        "pk": 478,
         "fields": {
             "name": "東京おかしランド",
             "address": "東京都千代田区丸の内1-9-1",
@@ -6881,7 +6657,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 493,
+        "pk": 479,
         "fields": {
             "name": "大國魂神社",
             "address": "東京都府中市宮町3-1",
@@ -6897,7 +6673,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 494,
+        "pk": 480,
         "fields": {
             "name": "神田川(東京都)",
             "address": "東京都三鷹市～中央区",
@@ -6913,7 +6689,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 495,
+        "pk": 481,
         "fields": {
             "name": "波除稲荷神社",
             "address": "中央区築地6-20-37",
@@ -6929,7 +6705,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 496,
+        "pk": 482,
         "fields": {
             "name": "羽田航空神社",
             "address": "東京都大田区羽田空港三丁目",
@@ -6945,7 +6721,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 497,
+        "pk": 483,
         "fields": {
             "name": "三井本館",
             "address": "東京都中央区日本橋室町二丁目1番1号",
@@ -6961,7 +6737,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 498,
+        "pk": 484,
         "fields": {
             "name": "銀座インズ",
             "address": "東京都中央区銀座西2-2先",
@@ -6977,7 +6753,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 499,
+        "pk": 485,
         "fields": {
             "name": "銀座みゆき通り",
             "address": "東京都中央区銀座６～千代田区有楽町1-1",
@@ -6993,7 +6769,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 500,
+        "pk": 486,
         "fields": {
             "name": "紀伊國屋書店新宿本店",
             "address": "東京都新宿区新宿3-17-7",
@@ -7009,7 +6785,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 501,
+        "pk": 487,
         "fields": {
             "name": "銀座みゆき通り",
             "address": "東京都中央区銀座６～千代田区有楽町1-1",
@@ -7025,7 +6801,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 502,
+        "pk": 488,
         "fields": {
             "name": "SHIBUYA109",
             "address": "東京都渋谷区道玄坂2-29-1",
@@ -7041,7 +6817,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 503,
+        "pk": 489,
         "fields": {
             "name": "かごしま遊楽館",
             "address": "東京都千代田区有楽町1-6-4",
@@ -7057,7 +6833,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 504,
+        "pk": 490,
         "fields": {
             "name": "浅草花やしき通り",
             "address": "東京都台東区浅草2",
@@ -7073,7 +6849,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 505,
+        "pk": 491,
         "fields": {
             "name": "東京芸術劇場",
             "address": "東京都豊島区西池袋１丁目８-１",
@@ -7089,7 +6865,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 506,
+        "pk": 492,
         "fields": {
             "name": "都立神代植物公園",
             "address": "東京都調布市深大寺元町5-31-10",
@@ -7105,7 +6881,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 507,
+        "pk": 493,
         "fields": {
             "name": "エアローソン(羽田空港第二ターミナル)",
             "address": "東京都大田区羽田空港3‐4‐2",
@@ -7121,23 +6897,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 508,
-        "fields": {
-            "name": "銀の鈴",
-            "address": "JR東京駅、中央地下一階コンコース、八重洲地下中央口改札内",
-            "phone_number": "None",
-            "longitude": 35.681236,
-            "latitude": 139.767125,
-            "start_date": "2020-01-01",
-            "end_date": "2020-01-01",
-            "genre": "観光地",
-            "explanation": "None",
-            "picture": "https://cdn.4travel.jp/img/thumbnails/imk/tips_pict/18/72/72/650x450_18727206.jpg?updated_at=1656550528"
-        }
-    },
-    {
-        "model": "app.spot",
-        "pk": 509,
+        "pk": 494,
         "fields": {
             "name": "高尾山ハイキングコース",
             "address": "東京都八王子市高尾町",
@@ -7153,7 +6913,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 510,
+        "pk": 495,
         "fields": {
             "name": "銀の鈴",
             "address": "JR東京駅、中央地下一階コンコース、八重洲地下中央口改札内",
@@ -7169,7 +6929,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 511,
+        "pk": 496,
         "fields": {
             "name": "多摩川",
             "address": "東京都世田谷区玉川",
@@ -7185,7 +6945,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 512,
+        "pk": 497,
         "fields": {
             "name": "万世橋",
             "address": "東京都千代田区外神田一丁目～千代田区神田須田町一・二丁目",
@@ -7201,7 +6961,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 513,
+        "pk": 498,
         "fields": {
             "name": "恵比寿ガーデンプレイスイルミネーション",
             "address": "東京都渋谷区恵比寿",
@@ -7217,7 +6977,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 514,
+        "pk": 499,
         "fields": {
             "name": "甘酒横丁",
             "address": "東京都中央区日本橋人形町２丁目",
@@ -7233,7 +6993,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 515,
+        "pk": 500,
         "fields": {
             "name": "ルミネ2(新宿店)",
             "address": "新宿区新宿3-38-2",
@@ -7249,7 +7009,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 516,
+        "pk": 501,
         "fields": {
             "name": "宮下公園",
             "address": "東京都渋谷区神宮前6-20-10",
@@ -7265,7 +7025,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 517,
+        "pk": 502,
         "fields": {
             "name": "東京競馬場",
             "address": "東京都府中市日吉町1-1",
@@ -7281,7 +7041,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 518,
+        "pk": 503,
         "fields": {
             "name": "日比谷シャンテ",
             "address": "東京都千代田区有楽町1-2-2",
@@ -7297,7 +7057,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 519,
+        "pk": 504,
         "fields": {
             "name": "東京モード学園コクーンタワー",
             "address": "東京都新宿区西新宿1-7-3　",
@@ -7313,7 +7073,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 520,
+        "pk": 505,
         "fields": {
             "name": "キッテガーデン",
             "address": "東京都千代田区丸の内2丁目7番2号",
@@ -7329,7 +7089,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 521,
+        "pk": 506,
         "fields": {
             "name": "都立小金井公園",
             "address": "東京都小金井市関野町1-13-1",
@@ -7345,7 +7105,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 522,
+        "pk": 507,
         "fields": {
             "name": "羽田空港国内線ANAラウンジ(本館南)",
             "address": "東京都大田区羽田空港3-4-2",
@@ -7361,7 +7121,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 523,
+        "pk": 508,
         "fields": {
             "name": "檜町公園",
             "address": "東京都港区赤坂9丁目7-9",
@@ -7377,7 +7137,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 524,
+        "pk": 509,
         "fields": {
             "name": "旧新橋停車場",
             "address": "東京都港区東新橋1-5-3",
@@ -7393,7 +7153,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 525,
+        "pk": 510,
         "fields": {
             "name": "東京ゲートブリッジ",
             "address": "東京都江東区若洲",
@@ -7409,7 +7169,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 526,
+        "pk": 511,
         "fields": {
             "name": "赤坂サカス",
             "address": "東京都港区赤坂5丁目3-1",
@@ -7425,7 +7185,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 527,
+        "pk": 512,
         "fields": {
             "name": "玉川高島屋",
             "address": "東京都世田谷区玉川3-17-1",
@@ -7441,7 +7201,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 528,
+        "pk": 513,
         "fields": {
             "name": "アトレ品川",
             "address": "東京都港区港南2-18-1",
@@ -7457,7 +7217,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 529,
+        "pk": 514,
         "fields": {
             "name": "将門塚",
             "address": "東京都千代田区大手町",
@@ -7473,7 +7233,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 530,
+        "pk": 515,
         "fields": {
             "name": "せとうち旬彩館",
             "address": "東京都港区新橋2-19-10",
@@ -7489,7 +7249,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 531,
+        "pk": 516,
         "fields": {
             "name": "歌舞伎町",
             "address": "東京都新宿区歌舞伎町",
@@ -7505,7 +7265,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 532,
+        "pk": 517,
         "fields": {
             "name": "東京ラーメンストリート",
             "address": "東京駅八重洲南口地下１階",
@@ -7521,7 +7281,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 533,
+        "pk": 518,
         "fields": {
             "name": "明治神宮外苑いちょう祭り",
             "address": "東京都新宿区霞ケ丘町1-1",
@@ -7537,7 +7297,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 534,
+        "pk": 519,
         "fields": {
             "name": "東急プラザ表参道原宿",
             "address": "東京都渋谷区神宮前4-30-3",
@@ -7553,7 +7313,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 535,
+        "pk": 520,
         "fields": {
             "name": "銀座熊本館",
             "address": "東京都中央区銀座5-3-16",
@@ -7569,7 +7329,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 536,
+        "pk": 521,
         "fields": {
             "name": "石神井公園",
             "address": "東京都練馬区石神井台1丁目",
@@ -7585,7 +7345,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 537,
+        "pk": 522,
         "fields": {
             "name": "上野マルイ",
             "address": "東京都台東区上野6-15-1",
@@ -7601,7 +7361,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 538,
+        "pk": 523,
         "fields": {
             "name": "ルミネエスト新宿",
             "address": "東京都新宿区新宿3-38-1",
@@ -7617,7 +7377,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 539,
+        "pk": 524,
         "fields": {
             "name": "博品館TOYPARK(銀座本店)",
             "address": "東京都中央区銀座8-8-11",
@@ -7633,7 +7393,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 540,
+        "pk": 525,
         "fields": {
             "name": "帝国劇場",
             "address": "東京都千代田区丸の内3-1-1",
@@ -7649,7 +7409,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 541,
+        "pk": 526,
         "fields": {
             "name": "東郷神社",
             "address": "東京都渋谷区神宮前1-5-3",
@@ -7665,7 +7425,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 542,
+        "pk": 527,
         "fields": {
             "name": "新宿ミロード",
             "address": "東京都新宿区西新宿1-1-3",
@@ -7681,7 +7441,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 543,
+        "pk": 528,
         "fields": {
             "name": "うさぎや",
             "address": "東京都台東区上野1-10-10",
@@ -7697,7 +7457,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 544,
+        "pk": 529,
         "fields": {
             "name": "浅草観音通り",
             "address": "東京都台東区浅草1丁目",
@@ -7713,7 +7473,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 545,
+        "pk": 530,
         "fields": {
             "name": "有栖川宮記念公園",
             "address": "東京都港区南麻布5-7-29",
@@ -7729,7 +7489,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 546,
+        "pk": 531,
         "fields": {
             "name": "瀧泉寺(目黒不動尊)",
             "address": "東京都目黒区下目黒3-20-26",
@@ -7745,7 +7505,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 547,
+        "pk": 532,
         "fields": {
             "name": "谷中霊園",
             "address": "東京都台東区谷中7-5-24",
@@ -7761,7 +7521,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 548,
+        "pk": 533,
         "fields": {
             "name": "奈良まほろば館",
             "address": "東京都港区新橋1-8-4",
@@ -7777,7 +7537,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 549,
+        "pk": 534,
         "fields": {
             "name": "まるごとにっぽん",
             "address": "東京都台東区浅草2-6-7",
@@ -7793,7 +7553,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 550,
+        "pk": 535,
         "fields": {
             "name": "芝東照宮",
             "address": "東京都港区芝公園4-8-10",
@@ -7809,7 +7569,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 551,
+        "pk": 536,
         "fields": {
             "name": "森美術館",
             "address": "東京都港区六本木6-10-1",
@@ -7825,7 +7585,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 552,
+        "pk": 537,
         "fields": {
             "name": "消防博物館",
             "address": "東京都新宿区四谷3-10",
@@ -7841,7 +7601,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 553,
+        "pk": 538,
         "fields": {
             "name": "ヱビスビール記念館",
             "address": "東京都渋谷区恵比寿4-20-1",
@@ -7857,7 +7617,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 554,
+        "pk": 539,
         "fields": {
             "name": "六本木ヒルズArtelligentChristmas",
             "address": "東京都港区六本木6",
@@ -7873,7 +7633,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 555,
+        "pk": 540,
         "fields": {
             "name": "西新井大師(五智山遍照院總持寺)",
             "address": "東京都足立区西新井1-15-1",
@@ -7889,7 +7649,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 556,
+        "pk": 541,
         "fields": {
             "name": "マロニエゲート銀座1",
             "address": "東京都中央区銀座2-2-14",
@@ -7905,7 +7665,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 557,
+        "pk": 542,
         "fields": {
             "name": "神田神保町古書店街",
             "address": "東京都千代田区神田神保町",
@@ -7921,7 +7681,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 558,
+        "pk": 543,
         "fields": {
             "name": "浅草西参道商店街",
             "address": "東京都台東区浅草2丁目",
@@ -7937,7 +7697,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 559,
+        "pk": 544,
         "fields": {
             "name": "台東区立旧東京音楽学校奏楽堂",
             "address": "東京都台東区上野公園８-４３",
@@ -7953,7 +7713,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 560,
+        "pk": 545,
         "fields": {
             "name": "正岡子規記念球場",
             "address": "東京都台東区上野公園",
@@ -7969,7 +7729,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 561,
+        "pk": 546,
         "fields": {
             "name": "吉池本店",
             "address": "東京都台東区上野3-27-12",
@@ -7985,7 +7745,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 562,
+        "pk": 547,
         "fields": {
             "name": "有楽町マリオン",
             "address": "東京都千代田区有楽町2-5-1",
@@ -8001,7 +7761,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 563,
+        "pk": 548,
         "fields": {
             "name": "阪急メンズトーキョー",
             "address": "東京都千代田区有楽町2丁目5番1号",
@@ -8017,7 +7777,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 564,
+        "pk": 549,
         "fields": {
             "name": "神楽坂",
             "address": "東京都新宿区早稲田通り～大久保通り交差点～外堀通り交差点",
@@ -8033,7 +7793,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 565,
+        "pk": 550,
         "fields": {
             "name": "池袋パルコ",
             "address": "東京都豊島区南池袋1-28-2",
@@ -8049,7 +7809,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 566,
+        "pk": 551,
         "fields": {
             "name": "羽田空港国内線ANAラウンジ(本館北)",
             "address": "東京都大田区羽田空港3-4-2",
@@ -8065,7 +7825,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 567,
+        "pk": 552,
         "fields": {
             "name": "チームラボボーダレス",
             "address": "東京都江東区青海1-3-8",
@@ -8081,7 +7841,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 568,
+        "pk": 553,
         "fields": {
             "name": "浜町公園",
             "address": "東京都中央区浜町二丁目59番1号",
@@ -8097,7 +7857,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 569,
+        "pk": 554,
         "fields": {
             "name": "新大久保コリアンタウン",
             "address": "東京都新宿区百人町",
@@ -8113,7 +7873,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 570,
+        "pk": 555,
         "fields": {
             "name": "芝大神宮",
             "address": "東京都港区芝大門1-12-7",
@@ -8129,7 +7889,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 571,
+        "pk": 556,
         "fields": {
             "name": "Bunkamuraザ・ミュージアム",
             "address": "東京都渋谷区道玄坂2-24-1",
@@ -8145,7 +7905,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 572,
+        "pk": 557,
         "fields": {
             "name": "下谷神社",
             "address": "東京都台東区東上野3-29-8",
@@ -8161,7 +7921,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 573,
+        "pk": 558,
         "fields": {
             "name": "聖徳記念絵画館",
             "address": "東京都新宿区霞ケ丘9",
@@ -8177,7 +7937,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 574,
+        "pk": 559,
         "fields": {
             "name": "旧加賀屋敷御守殿門(赤門)",
             "address": "東京都文京区本郷7-3",
@@ -8193,7 +7953,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 575,
+        "pk": 560,
         "fields": {
             "name": "横網町公園",
             "address": "東京都墨田区横網2-3-25",
@@ -8209,7 +7969,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 576,
+        "pk": 561,
         "fields": {
             "name": "イバラキセンス",
             "address": "東京都中央区銀座1-2-1",
@@ -8225,7 +7985,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 577,
+        "pk": 562,
         "fields": {
             "name": "品川神社",
             "address": "東京都品川区北品川3-7-15",
@@ -8241,7 +8001,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 578,
+        "pk": 563,
         "fields": {
             "name": "浅草演芸ホール",
             "address": "東京都台東区浅草1-43-12",
@@ -8257,7 +8017,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 579,
+        "pk": 564,
         "fields": {
             "name": "徳大寺",
             "address": "東京都台東区上野4-6-2",
@@ -8273,7 +8033,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 580,
+        "pk": 565,
         "fields": {
             "name": "東京証券取引所",
             "address": "東京都中央区兜町2-1",
@@ -8289,7 +8049,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 581,
+        "pk": 566,
         "fields": {
             "name": "浅草雷門通り商店街",
             "address": "東京都台東区浅草1-8-2",
@@ -8305,7 +8065,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 582,
+        "pk": 567,
         "fields": {
             "name": "法務省旧本館",
             "address": "東京都千代田区霞が関1-7",
@@ -8321,7 +8081,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 583,
+        "pk": 568,
         "fields": {
             "name": "渋谷パルコ",
             "address": "東京都渋谷区宇田川町15-1",
@@ -8337,7 +8097,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 584,
+        "pk": 569,
         "fields": {
             "name": "アトレ秋葉原",
             "address": "東京都千代田区外神田1-17-6",
@@ -8353,7 +8113,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 585,
+        "pk": 570,
         "fields": {
             "name": "回向院(東京都墨田区)",
             "address": "東京都墨田区両国2-8-10",
@@ -8369,7 +8129,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 586,
+        "pk": 571,
         "fields": {
             "name": "スタジオアルタ",
             "address": "東京都新宿区新宿３丁目24",
@@ -8385,7 +8145,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 587,
+        "pk": 572,
         "fields": {
             "name": "都立駒沢オリンピック公園",
             "address": "東京都世田谷区駒沢公園1-1",
@@ -8401,7 +8161,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 588,
+        "pk": 573,
         "fields": {
             "name": "いわて銀河プラザ",
             "address": "東京都中央区銀座5-15-1",
@@ -8417,7 +8177,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 589,
+        "pk": 574,
         "fields": {
             "name": "キャセイパシフィック羽田ラウンジ",
             "address": "東京都大田区羽田空港3-3　第3ターミナル6F",
@@ -8433,7 +8193,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 590,
+        "pk": 575,
         "fields": {
             "name": "よみうりランド",
             "address": "東京都稲城市矢野口4015‐1",
@@ -8449,7 +8209,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 591,
+        "pk": 576,
         "fields": {
             "name": "神宮橋",
             "address": "東京都渋谷区神宮前1-18",
@@ -8465,7 +8225,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 592,
+        "pk": 577,
         "fields": {
             "name": "相田みつを美術館",
             "address": "東京都千代田区丸の内3-5-1",
@@ -8481,7 +8241,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 593,
+        "pk": 578,
         "fields": {
             "name": "東京市道路元標",
             "address": "東京都中央区日本橋1",
@@ -8497,7 +8257,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 594,
+        "pk": 579,
         "fields": {
             "name": "新橋駅前ビル",
             "address": "東京都港区新橋2-20-15",
@@ -8513,7 +8273,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 595,
+        "pk": 580,
         "fields": {
             "name": "昭和館",
             "address": "東京都千代田区九段南1-6-1",
@@ -8529,7 +8289,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 596,
+        "pk": 581,
         "fields": {
             "name": "もんじゃストリート",
             "address": "東京都中央区月島",
@@ -8545,39 +8305,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 597,
-        "fields": {
-            "name": "浅草ROX",
-            "address": "東京都台東区浅草1-25-15",
-            "phone_number": "None",
-            "longitude": 35.712851,
-            "latitude": 139.79268,
-            "start_date": "2020-01-01",
-            "end_date": "2020-01-01",
-            "genre": "観光地",
-            "explanation": "None",
-            "picture": "https://cdn.4travel.jp/img/thumbnails/imk/tips_pict/18/83/64/650x450_18836456.jpg?updated_at=1661033958"
-        }
-    },
-    {
-        "model": "app.spot",
-        "pk": 598,
-        "fields": {
-            "name": "日比谷公園雲形池",
-            "address": "東京都千代田区日比谷公園",
-            "phone_number": "None",
-            "longitude": 35.673612,
-            "latitude": 139.755877,
-            "start_date": "2020-01-01",
-            "end_date": "2020-01-01",
-            "genre": "観光地",
-            "explanation": "None",
-            "picture": "https://cdn.4travel.jp/img/thumbnails/imk/tips_pict/18/78/51/650x450_18785163.jpg?updated_at=1659095714"
-        }
-    },
-    {
-        "model": "app.spot",
-        "pk": 599,
+        "pk": 582,
         "fields": {
             "name": "吉祥寺サンロード商店街",
             "address": "東京都武蔵野市吉祥寺本町１丁目１２－１",
@@ -8593,7 +8321,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 600,
+        "pk": 583,
         "fields": {
             "name": "鬼子母神堂",
             "address": "東京都豊島区雑司が谷3-15-20",
@@ -8609,7 +8337,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 601,
+        "pk": 584,
         "fields": {
             "name": "ルミネ池袋店",
             "address": "東京都豊島区西池袋1-11-1",
@@ -8625,7 +8353,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 602,
+        "pk": 585,
         "fields": {
             "name": "日比谷公園雲形池",
             "address": "東京都千代田区日比谷公園",
@@ -8641,7 +8369,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 603,
+        "pk": 586,
         "fields": {
             "name": "今戸神社",
             "address": "東京都台東区今戸1-5-22",
@@ -8657,7 +8385,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 604,
+        "pk": 587,
         "fields": {
             "name": "浅草ROX",
             "address": "東京都台東区浅草1-25-15",
@@ -8673,7 +8401,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 605,
+        "pk": 588,
         "fields": {
             "name": "戸越銀座商店街",
             "address": "東京都品川区豊町・戸越・平塚",
@@ -8689,7 +8417,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 606,
+        "pk": 589,
         "fields": {
             "name": "ユニクロ(羽田空港第1ターミナル店)",
             "address": "東京都大田区羽田空港3-3-2",
@@ -8705,7 +8433,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 607,
+        "pk": 590,
         "fields": {
             "name": "池袋西口公園",
             "address": "東京都豊島区西池袋1-8-26",
@@ -8721,7 +8449,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 608,
+        "pk": 591,
         "fields": {
             "name": "東京都現代美術館",
             "address": "東京都江東区三好4-1-1",
@@ -8737,39 +8465,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 609,
-        "fields": {
-            "name": "サントリー美術館",
-            "address": "東京都港区赤坂9-7-4",
-            "phone_number": "None",
-            "longitude": 35.666219,
-            "latitude": 139.730226,
-            "start_date": "2020-01-01",
-            "end_date": "2020-01-01",
-            "genre": "観光地",
-            "explanation": "None",
-            "picture": "https://cdn.4travel.jp/img/thumbnails/imk/tips_pict/18/81/99/650x450_18819910.jpg?updated_at=1660392854"
-        }
-    },
-    {
-        "model": "app.spot",
-        "pk": 610,
-        "fields": {
-            "name": "中野ブロードウェイ",
-            "address": "東京都中野区中野5-52-15",
-            "phone_number": "None",
-            "longitude": 35.709236,
-            "latitude": 139.665774,
-            "start_date": "2020-01-01",
-            "end_date": "2020-01-01",
-            "genre": "観光地",
-            "explanation": "None",
-            "picture": "https://cdn.4travel.jp/img/thumbnails/imk/tips_pict/18/80/00/650x450_18800095.jpg?updated_at=1659683113"
-        }
-    },
-    {
-        "model": "app.spot",
-        "pk": 611,
+        "pk": 592,
         "fields": {
             "name": "東京シティビュー",
             "address": "東京都港区六本木6-10-1",
@@ -8785,7 +8481,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 612,
+        "pk": 593,
         "fields": {
             "name": "中野ブロードウェイ",
             "address": "東京都中野区中野5-52-15",
@@ -8801,7 +8497,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 613,
+        "pk": 594,
         "fields": {
             "name": "サントリー美術館",
             "address": "東京都港区赤坂9-7-4",
@@ -8817,7 +8513,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 614,
+        "pk": 595,
         "fields": {
             "name": "京橋エドグラン",
             "address": "東京都中央区京橋二丁目2番27",
@@ -8833,23 +8529,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 615,
-        "fields": {
-            "name": "都立水元公園",
-            "address": "東京都葛飾区水元公園",
-            "phone_number": "None",
-            "longitude": 35.787198,
-            "latitude": 139.869841,
-            "start_date": "2020-01-01",
-            "end_date": "2020-01-01",
-            "genre": "観光地",
-            "explanation": "None",
-            "picture": "https://cdn.4travel.jp/img/thumbnails/imk/tips_pict/18/81/19/650x450_18811984.jpg?updated_at=1660137458"
-        }
-    },
-    {
-        "model": "app.spot",
-        "pk": 616,
+        "pk": 596,
         "fields": {
             "name": "新宿サザンテラス",
             "address": "東京都渋谷区代々木2-2-1",
@@ -8865,23 +8545,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 617,
-        "fields": {
-            "name": "代官山蔦屋書店",
-            "address": "東京都渋谷区猿楽町17-5",
-            "phone_number": "None",
-            "longitude": 35.648884,
-            "latitude": 139.699776,
-            "start_date": "2020-01-01",
-            "end_date": "2020-01-01",
-            "genre": "観光地",
-            "explanation": "None",
-            "picture": "https://cdn.4travel.jp/img/thumbnails/imk/tips_pict/18/59/33/650x450_18593325.jpg?updated_at=1650934073"
-        }
-    },
-    {
-        "model": "app.spot",
-        "pk": 618,
+        "pk": 597,
         "fields": {
             "name": "西銀座(NISHIGINZA)",
             "address": "東京都中央区銀座4-1",
@@ -8897,23 +8561,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 619,
-        "fields": {
-            "name": "日テレ大時計",
-            "address": "東京都東京都港区東新橋1-6-1",
-            "phone_number": "None",
-            "longitude": 35.664329,
-            "latitude": 139.759828,
-            "start_date": "2020-01-01",
-            "end_date": "2020-01-01",
-            "genre": "観光地",
-            "explanation": "None",
-            "picture": "https://cdn.4travel.jp/img/thumbnails/imk/tips_pict/18/84/25/650x450_18842524.jpg?updated_at=1661251275"
-        }
-    },
-    {
-        "model": "app.spot",
-        "pk": 620,
+        "pk": 598,
         "fields": {
             "name": "GinzaSonyPark(銀座ソニーパーク)",
             "address": "東京都中央区銀座5-3-1",
@@ -8929,7 +8577,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 621,
+        "pk": 599,
         "fields": {
             "name": "都立水元公園",
             "address": "東京都葛飾区水元公園",
@@ -8945,7 +8593,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 622,
+        "pk": 600,
         "fields": {
             "name": "赤坂Bizタワー",
             "address": "東京都港区赤坂5-3-1",
@@ -8961,7 +8609,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 623,
+        "pk": 601,
         "fields": {
             "name": "砧公園",
             "address": "東京都世田谷区砧公園1-1",
@@ -8977,7 +8625,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 624,
+        "pk": 602,
         "fields": {
             "name": "東京都復興記念館",
             "address": "東京都墨田区横網2-3-25",
@@ -8993,7 +8641,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 625,
+        "pk": 603,
         "fields": {
             "name": "浅草公会堂",
             "address": "東京都台東区浅草1-38-6",
@@ -9009,23 +8657,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 626,
-        "fields": {
-            "name": "高燈篭",
-            "address": "東京都千代田区九段南2-2",
-            "phone_number": "None",
-            "longitude": 35.694111,
-            "latitude": 139.747001,
-            "start_date": "2020-01-01",
-            "end_date": "2020-01-01",
-            "genre": "観光地",
-            "explanation": "None",
-            "picture": "https://cdn.4travel.jp/img/thumbnails/imk/tips_pict/18/77/65/650x450_18776559.jpg?updated_at=1658730723"
-        }
-    },
-    {
-        "model": "app.spot",
-        "pk": 627,
+        "pk": 604,
         "fields": {
             "name": "代官山蔦屋書店",
             "address": "東京都渋谷区猿楽町17-5",
@@ -9041,7 +8673,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 628,
+        "pk": 605,
         "fields": {
             "name": "高燈篭",
             "address": "東京都千代田区九段南2-2",
@@ -9057,7 +8689,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 629,
+        "pk": 606,
         "fields": {
             "name": "日テレ大時計",
             "address": "東京都東京都港区東新橋1-6-1",
@@ -9073,7 +8705,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 630,
+        "pk": 607,
         "fields": {
             "name": "新宿アイランドタワー",
             "address": "東京都新宿区西新宿6-5-1",
@@ -9089,7 +8721,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 631,
+        "pk": 608,
         "fields": {
             "name": "JPタワー学術文化総合ミュージアムインターメディアテク",
             "address": "東京都千代田区丸の内二丁目7番2号",
@@ -9105,7 +8737,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 632,
+        "pk": 609,
         "fields": {
             "name": "自由学園明日館",
             "address": "東京都豊島区西池袋2-31-3",
@@ -9117,6 +8749,374 @@
             "genre": "観光地",
             "explanation": "None",
             "picture": "https://cdn.4travel.jp/img/thumbnails/imk/tips_pict/18/68/19/650x450_18681938.jpg?updated_at=1654517603"
+        }
+    },
+    {
+        "model": "app.spot",
+        "pk": 610,
+        "fields": {
+            "name": "すみだリバーウォーク",
+            "address": "東京都墨田区向島1",
+            "phone_number": "None",
+            "longitude": 35.711523,
+            "latitude": 139.805475,
+            "start_date": "2020-01-01",
+            "end_date": "2020-01-01",
+            "genre": "観光地",
+            "explanation": "None",
+            "picture": "https://cdn.4travel.jp/img/thumbnails/imk/tips_pict/18/83/41/650x450_18834158.jpg?updated_at=1660959149"
+        }
+    },
+    {
+        "model": "app.spot",
+        "pk": 611,
+        "fields": {
+            "name": "白山神社(東京都文京区)",
+            "address": "東京都文京区白山5-31-26",
+            "phone_number": "None",
+            "longitude": 35.721988,
+            "latitude": 139.75074,
+            "start_date": "2020-01-01",
+            "end_date": "2020-01-01",
+            "genre": "観光地",
+            "explanation": "None",
+            "picture": "https://cdn.4travel.jp/img/thumbnails/imk/tips_pict/12/33/80/650x450_12338092.jpg?updated_at=1417173792"
+        }
+    },
+    {
+        "model": "app.spot",
+        "pk": 612,
+        "fields": {
+            "name": "北海道フーディスト",
+            "address": "東京都中央区八重洲2-1",
+            "phone_number": "None",
+            "longitude": 35.679941,
+            "latitude": 139.769441,
+            "start_date": "2020-01-01",
+            "end_date": "2020-01-01",
+            "genre": "観光地",
+            "explanation": "None",
+            "picture": "https://cdn.4travel.jp/img/thumbnails/imk/tips_pict/18/65/87/650x450_18658730.jpg?updated_at=1653612604"
+        }
+    },
+    {
+        "model": "app.spot",
+        "pk": 613,
+        "fields": {
+            "name": "モヤイ像",
+            "address": "東京都渋谷区道玄坂1-1",
+            "phone_number": "None",
+            "longitude": 35.657951,
+            "latitude": 139.70087,
+            "start_date": "2020-01-01",
+            "end_date": "2020-01-01",
+            "genre": "観光地",
+            "explanation": "None",
+            "picture": "https://cdn.4travel.jp/img/thumbnails/imk/tips_pict/18/75/35/650x450_18753578.jpg?updated_at=1657761476"
+        }
+    },
+    {
+        "model": "app.spot",
+        "pk": 614,
+        "fields": {
+            "name": "ルミネ1(新宿店)",
+            "address": "新宿区西新宿1-1-5",
+            "phone_number": "None",
+            "longitude": 35.689145,
+            "latitude": 139.699274,
+            "start_date": "2020-01-01",
+            "end_date": "2020-01-01",
+            "genre": "観光地",
+            "explanation": "None",
+            "picture": "https://cdn.4travel.jp/img/thumbnails/imk/tips_pict/18/81/52/650x450_18815244.jpg?updated_at=1660267900"
+        }
+    },
+    {
+        "model": "app.spot",
+        "pk": 615,
+        "fields": {
+            "name": "東京スクエアガーデン",
+            "address": "東京都中央区京橋三丁目1番",
+            "phone_number": "None",
+            "longitude": 35.675952,
+            "latitude": 139.768802,
+            "start_date": "2020-01-01",
+            "end_date": "2020-01-01",
+            "genre": "観光地",
+            "explanation": "None",
+            "picture": "https://cdn.4travel.jp/img/tcs/t/tips/pict/lrg/188/435/lrg_18843582.jpg?updated_at=1661308027"
+        }
+    },
+    {
+        "model": "app.spot",
+        "pk": 616,
+        "fields": {
+            "name": "小石川植物園",
+            "address": "東京都文京区白山3-7-1",
+            "phone_number": "None",
+            "longitude": 35.718571,
+            "latitude": 139.746397,
+            "start_date": "2020-01-01",
+            "end_date": "2020-01-01",
+            "genre": "観光地",
+            "explanation": "None",
+            "picture": "https://cdn.4travel.jp/img/thumbnails/imk/tips_pict/11/68/86/650x450_11688639.jpg?updated_at=1397058314"
+        }
+    },
+    {
+        "model": "app.spot",
+        "pk": 617,
+        "fields": {
+            "name": "ハーモニカ横丁",
+            "address": "東京都武蔵野市吉祥寺本町1-1-4",
+            "phone_number": "None",
+            "longitude": 35.703601,
+            "latitude": 139.578992,
+            "start_date": "2020-01-01",
+            "end_date": "2020-01-01",
+            "genre": "観光地",
+            "explanation": "None",
+            "picture": "https://cdn.4travel.jp/img/thumbnails/imk/tips_pict/18/82/79/650x450_18827972.jpg?updated_at=1660710185"
+        }
+    },
+    {
+        "model": "app.spot",
+        "pk": 618,
+        "fields": {
+            "name": "蒸気機関車D51231",
+            "address": "東京都台東区上野公園7-20",
+            "phone_number": "None",
+            "longitude": 35.716338,
+            "latitude": 139.776463,
+            "start_date": "2020-01-01",
+            "end_date": "2020-01-01",
+            "genre": "観光地",
+            "explanation": "None",
+            "picture": "https://cdn.4travel.jp/img/thumbnails/imk/tips_pict/18/79/35/650x450_18793530.jpg?updated_at=1659419187"
+        }
+    },
+    {
+        "model": "app.spot",
+        "pk": 619,
+        "fields": {
+            "name": "富士見櫓",
+            "address": "東京都千代田区皇居東御苑",
+            "phone_number": "None",
+            "longitude": 35.686782,
+            "latitude": 139.757145,
+            "start_date": "2020-01-01",
+            "end_date": "2020-01-01",
+            "genre": "観光地",
+            "explanation": "None",
+            "picture": "https://cdn.4travel.jp/img/thumbnails/imk/tips_pict/18/69/88/650x450_18698800.jpg?updated_at=1655267424"
+        }
+    },
+    {
+        "model": "app.spot",
+        "pk": 620,
+        "fields": {
+            "name": "東京ガーデンテラス紀尾井町",
+            "address": "東京都千代田区紀尾井町1-2",
+            "phone_number": "None",
+            "longitude": 35.679993,
+            "latitude": 139.737936,
+            "start_date": "2020-01-01",
+            "end_date": "2020-01-01",
+            "genre": "観光地",
+            "explanation": "None",
+            "picture": "https://cdn.4travel.jp/img/thumbnails/imk/tips_pict/18/82/15/650x450_18821541.jpg?updated_at=1660459262"
+        }
+    },
+    {
+        "model": "app.spot",
+        "pk": 621,
+        "fields": {
+            "name": "晴海通り",
+            "address": "東京都千代田区祝田橋交差点～江東区東雲交差点",
+            "phone_number": "None",
+            "longitude": 35.649883,
+            "latitude": 139.802219,
+            "start_date": "2020-01-01",
+            "end_date": "2020-01-01",
+            "genre": "観光地",
+            "explanation": "None",
+            "picture": "https://cdn.4travel.jp/img/thumbnails/imk/tips_pict/18/81/33/650x450_18813336.jpg?updated_at=1660196638"
+        }
+    },
+    {
+        "model": "app.spot",
+        "pk": 622,
+        "fields": {
+            "name": "東京鳩居堂銀座本店",
+            "address": "東京都中央区銀座5-7-4",
+            "phone_number": "None",
+            "longitude": 35.671078,
+            "latitude": 139.764546,
+            "start_date": "2020-01-01",
+            "end_date": "2020-01-01",
+            "genre": "観光地",
+            "explanation": "None",
+            "picture": "https://cdn.4travel.jp/img/thumbnails/imk/tips_pict/18/60/86/650x450_18608697.jpg?updated_at=1651538314"
+        }
+    },
+    {
+        "model": "app.spot",
+        "pk": 623,
+        "fields": {
+            "name": "JAL工場見学SKYMUSEUM",
+            "address": "東京都大田区羽田空港3-5-1",
+            "phone_number": "None",
+            "longitude": 35.541832,
+            "latitude": 139.788727,
+            "start_date": "2020-01-01",
+            "end_date": "2020-01-01",
+            "genre": "観光地",
+            "explanation": "None",
+            "picture": "https://cdn.4travel.jp/img/thumbnails/imk/tips_pict/18/65/74/650x450_18657470.jpg?updated_at=1653550434"
+        }
+    },
+    {
+        "model": "app.spot",
+        "pk": 624,
+        "fields": {
+            "name": "アトレ吉祥寺",
+            "address": "東京都武蔵野市吉祥寺南町1-1-24",
+            "phone_number": "None",
+            "longitude": 35.703113,
+            "latitude": 139.579011,
+            "start_date": "2020-01-01",
+            "end_date": "2020-01-01",
+            "genre": "観光地",
+            "explanation": "None",
+            "picture": "https://cdn.4travel.jp/img/thumbnails/imk/tips_pict/18/81/60/650x450_18816025.jpg?updated_at=1660289236"
+        }
+    },
+    {
+        "model": "app.spot",
+        "pk": 625,
+        "fields": {
+            "name": "台東区立下町風俗資料館",
+            "address": "東京都台東区上野公園2-1",
+            "phone_number": "None",
+            "longitude": 35.712289,
+            "latitude": 139.772007,
+            "start_date": "2020-01-01",
+            "end_date": "2020-01-01",
+            "genre": "観光地",
+            "explanation": "None",
+            "picture": "https://cdn.4travel.jp/img/thumbnails/imk/tips_pict/11/75/55/650x450_11755501.jpg?updated_at=1399337698"
+        }
+    },
+    {
+        "model": "app.spot",
+        "pk": 626,
+        "fields": {
+            "name": "本所松坂町公園",
+            "address": "東京都墨田区両国3-13-9",
+            "phone_number": "None",
+            "longitude": 35.693328,
+            "latitude": 139.794235,
+            "start_date": "2020-01-01",
+            "end_date": "2020-01-01",
+            "genre": "観光地",
+            "explanation": "None",
+            "picture": "https://cdn.4travel.jp/img/thumbnails/imk/tips_pict/18/55/36/650x450_18553633.jpg?updated_at=1649044676"
+        }
+    },
+    {
+        "model": "app.spot",
+        "pk": 627,
+        "fields": {
+            "name": "音無親水公園",
+            "address": "東京都北区王子本町1-1-1先",
+            "phone_number": "None",
+            "longitude": 35.753364,
+            "latitude": 139.735664,
+            "start_date": "2020-01-01",
+            "end_date": "2020-01-01",
+            "genre": "観光地",
+            "explanation": "None",
+            "picture": "https://cdn.4travel.jp/img/thumbnails/imk/tips_pict/18/81/39/650x450_18813930.jpg?updated_at=1660208710"
+        }
+    },
+    {
+        "model": "app.spot",
+        "pk": 628,
+        "fields": {
+            "name": "浅草オレンジ通り",
+            "address": "東京都台東区浅草1丁目",
+            "phone_number": "None",
+            "longitude": 35.712176,
+            "latitude": 139.794926,
+            "start_date": "2020-01-01",
+            "end_date": "2020-01-01",
+            "genre": "観光地",
+            "explanation": "None",
+            "picture": "https://cdn.4travel.jp/img/thumbnails/imk/tips_pict/18/84/41/650x450_18844176.jpg?updated_at=1661326326"
+        }
+    },
+    {
+        "model": "app.spot",
+        "pk": 629,
+        "fields": {
+            "name": "永代橋",
+            "address": "東京都中央区、江東区",
+            "phone_number": "None",
+            "longitude": 35.670639,
+            "latitude": 139.771989,
+            "start_date": "2020-01-01",
+            "end_date": "2020-01-01",
+            "genre": "観光地",
+            "explanation": "None",
+            "picture": "https://cdn.4travel.jp/img/thumbnails/imk/tips_pict/18/80/34/650x450_18803414.jpg?updated_at=1659798158"
+        }
+    },
+    {
+        "model": "app.spot",
+        "pk": 630,
+        "fields": {
+            "name": "洗足池公園",
+            "address": "東京都大田区南千束2-14-5",
+            "phone_number": "None",
+            "longitude": 35.602874,
+            "latitude": 139.689522,
+            "start_date": "2020-01-01",
+            "end_date": "2020-01-01",
+            "genre": "観光地",
+            "explanation": "None",
+            "picture": "https://cdn.4travel.jp/img/thumbnails/imk/tips_pict/18/80/69/650x450_18806916.jpg?updated_at=1659938225"
+        }
+    },
+    {
+        "model": "app.spot",
+        "pk": 631,
+        "fields": {
+            "name": "新宿三井ビル",
+            "address": "東京都新宿区西新宿2-1-1",
+            "phone_number": "None",
+            "longitude": 35.6919,
+            "latitude": 139.693904,
+            "start_date": "2020-01-01",
+            "end_date": "2020-01-01",
+            "genre": "観光地",
+            "explanation": "None",
+            "picture": "https://cdn.4travel.jp/img/thumbnails/imk/tips_pict/18/83/70/650x450_18837043.jpg?updated_at=1661052041"
+        }
+    },
+    {
+        "model": "app.spot",
+        "pk": 632,
+        "fields": {
+            "name": "旧新橋停車場鉄道歴史展示室",
+            "address": "東京都港区東新橋1-5-3",
+            "phone_number": "None",
+            "longitude": 35.665978,
+            "latitude": 139.761469,
+            "start_date": "2020-01-01",
+            "end_date": "2020-01-01",
+            "genre": "観光地",
+            "explanation": "None",
+            "picture": "https://cdn.4travel.jp/img/thumbnails/imk/tips_pict/18/79/96/650x450_18799636.jpg?updated_at=1659666301"
         }
     },
     {
@@ -9139,502 +9139,6 @@
         "model": "app.spot",
         "pk": 634,
         "fields": {
-            "name": "すみだリバーウォーク",
-            "address": "東京都墨田区向島1",
-            "phone_number": "None",
-            "longitude": 35.711523,
-            "latitude": 139.805475,
-            "start_date": "2020-01-01",
-            "end_date": "2020-01-01",
-            "genre": "観光地",
-            "explanation": "None",
-            "picture": "https://cdn.4travel.jp/img/thumbnails/imk/tips_pict/18/83/41/650x450_18834158.jpg?updated_at=1660959149"
-        }
-    },
-    {
-        "model": "app.spot",
-        "pk": 635,
-        "fields": {
-            "name": "白山神社(東京都文京区)",
-            "address": "東京都文京区白山5-31-26",
-            "phone_number": "None",
-            "longitude": 35.721988,
-            "latitude": 139.75074,
-            "start_date": "2020-01-01",
-            "end_date": "2020-01-01",
-            "genre": "観光地",
-            "explanation": "None",
-            "picture": "https://cdn.4travel.jp/img/thumbnails/imk/tips_pict/12/33/80/650x450_12338092.jpg?updated_at=1417173792"
-        }
-    },
-    {
-        "model": "app.spot",
-        "pk": 636,
-        "fields": {
-            "name": "北海道フーディスト",
-            "address": "東京都中央区八重洲2-1",
-            "phone_number": "None",
-            "longitude": 35.679941,
-            "latitude": 139.769441,
-            "start_date": "2020-01-01",
-            "end_date": "2020-01-01",
-            "genre": "観光地",
-            "explanation": "None",
-            "picture": "https://cdn.4travel.jp/img/thumbnails/imk/tips_pict/18/65/87/650x450_18658730.jpg?updated_at=1653612604"
-        }
-    },
-    {
-        "model": "app.spot",
-        "pk": 637,
-        "fields": {
-            "name": "モヤイ像",
-            "address": "東京都渋谷区道玄坂1-1",
-            "phone_number": "None",
-            "longitude": 35.657951,
-            "latitude": 139.70087,
-            "start_date": "2020-01-01",
-            "end_date": "2020-01-01",
-            "genre": "観光地",
-            "explanation": "None",
-            "picture": "https://cdn.4travel.jp/img/thumbnails/imk/tips_pict/18/75/35/650x450_18753578.jpg?updated_at=1657761476"
-        }
-    },
-    {
-        "model": "app.spot",
-        "pk": 638,
-        "fields": {
-            "name": "ルミネ1(新宿店)",
-            "address": "新宿区西新宿1-1-5",
-            "phone_number": "None",
-            "longitude": 35.689145,
-            "latitude": 139.699274,
-            "start_date": "2020-01-01",
-            "end_date": "2020-01-01",
-            "genre": "観光地",
-            "explanation": "None",
-            "picture": "https://cdn.4travel.jp/img/thumbnails/imk/tips_pict/18/81/52/650x450_18815244.jpg?updated_at=1660267900"
-        }
-    },
-    {
-        "model": "app.spot",
-        "pk": 639,
-        "fields": {
-            "name": "東京スクエアガーデン",
-            "address": "東京都中央区京橋三丁目1番",
-            "phone_number": "None",
-            "longitude": 35.675952,
-            "latitude": 139.768802,
-            "start_date": "2020-01-01",
-            "end_date": "2020-01-01",
-            "genre": "観光地",
-            "explanation": "None",
-            "picture": "https://cdn.4travel.jp/img/tcs/t/tips/pict/lrg/188/435/lrg_18843582.jpg?updated_at=1661308027"
-        }
-    },
-    {
-        "model": "app.spot",
-        "pk": 640,
-        "fields": {
-            "name": "小石川植物園",
-            "address": "東京都文京区白山3-7-1",
-            "phone_number": "None",
-            "longitude": 35.718571,
-            "latitude": 139.746397,
-            "start_date": "2020-01-01",
-            "end_date": "2020-01-01",
-            "genre": "観光地",
-            "explanation": "None",
-            "picture": "https://cdn.4travel.jp/img/thumbnails/imk/tips_pict/11/68/86/650x450_11688639.jpg?updated_at=1397058314"
-        }
-    },
-    {
-        "model": "app.spot",
-        "pk": 641,
-        "fields": {
-            "name": "ハーモニカ横丁",
-            "address": "東京都武蔵野市吉祥寺本町1-1-4",
-            "phone_number": "None",
-            "longitude": 35.703601,
-            "latitude": 139.578992,
-            "start_date": "2020-01-01",
-            "end_date": "2020-01-01",
-            "genre": "観光地",
-            "explanation": "None",
-            "picture": "https://cdn.4travel.jp/img/thumbnails/imk/tips_pict/18/82/79/650x450_18827972.jpg?updated_at=1660710185"
-        }
-    },
-    {
-        "model": "app.spot",
-        "pk": 642,
-        "fields": {
-            "name": "蒸気機関車D51231",
-            "address": "東京都台東区上野公園7-20",
-            "phone_number": "None",
-            "longitude": 35.716338,
-            "latitude": 139.776463,
-            "start_date": "2020-01-01",
-            "end_date": "2020-01-01",
-            "genre": "観光地",
-            "explanation": "None",
-            "picture": "https://cdn.4travel.jp/img/thumbnails/imk/tips_pict/18/79/35/650x450_18793530.jpg?updated_at=1659419187"
-        }
-    },
-    {
-        "model": "app.spot",
-        "pk": 643,
-        "fields": {
-            "name": "富士見櫓",
-            "address": "東京都千代田区皇居東御苑",
-            "phone_number": "None",
-            "longitude": 35.686782,
-            "latitude": 139.757145,
-            "start_date": "2020-01-01",
-            "end_date": "2020-01-01",
-            "genre": "観光地",
-            "explanation": "None",
-            "picture": "https://cdn.4travel.jp/img/thumbnails/imk/tips_pict/18/69/88/650x450_18698800.jpg?updated_at=1655267424"
-        }
-    },
-    {
-        "model": "app.spot",
-        "pk": 644,
-        "fields": {
-            "name": "東京ガーデンテラス紀尾井町",
-            "address": "東京都千代田区紀尾井町1-2",
-            "phone_number": "None",
-            "longitude": 35.679993,
-            "latitude": 139.737936,
-            "start_date": "2020-01-01",
-            "end_date": "2020-01-01",
-            "genre": "観光地",
-            "explanation": "None",
-            "picture": "https://cdn.4travel.jp/img/thumbnails/imk/tips_pict/18/82/15/650x450_18821541.jpg?updated_at=1660459262"
-        }
-    },
-    {
-        "model": "app.spot",
-        "pk": 645,
-        "fields": {
-            "name": "晴海通り",
-            "address": "東京都千代田区祝田橋交差点～江東区東雲交差点",
-            "phone_number": "None",
-            "longitude": 35.649883,
-            "latitude": 139.802219,
-            "start_date": "2020-01-01",
-            "end_date": "2020-01-01",
-            "genre": "観光地",
-            "explanation": "None",
-            "picture": "https://cdn.4travel.jp/img/thumbnails/imk/tips_pict/18/81/33/650x450_18813336.jpg?updated_at=1660196638"
-        }
-    },
-    {
-        "model": "app.spot",
-        "pk": 646,
-        "fields": {
-            "name": "洗足池公園",
-            "address": "東京都大田区南千束2-14-5",
-            "phone_number": "None",
-            "longitude": 35.602874,
-            "latitude": 139.689522,
-            "start_date": "2020-01-01",
-            "end_date": "2020-01-01",
-            "genre": "観光地",
-            "explanation": "None",
-            "picture": "https://cdn.4travel.jp/img/thumbnails/imk/tips_pict/18/80/69/650x450_18806916.jpg?updated_at=1659938225"
-        }
-    },
-    {
-        "model": "app.spot",
-        "pk": 647,
-        "fields": {
-            "name": "東京鳩居堂銀座本店",
-            "address": "東京都中央区銀座5-7-4",
-            "phone_number": "None",
-            "longitude": 35.671078,
-            "latitude": 139.764546,
-            "start_date": "2020-01-01",
-            "end_date": "2020-01-01",
-            "genre": "観光地",
-            "explanation": "None",
-            "picture": "https://cdn.4travel.jp/img/thumbnails/imk/tips_pict/18/60/86/650x450_18608697.jpg?updated_at=1651538314"
-        }
-    },
-    {
-        "model": "app.spot",
-        "pk": 648,
-        "fields": {
-            "name": "JAL工場見学SKYMUSEUM",
-            "address": "東京都大田区羽田空港3-5-1",
-            "phone_number": "None",
-            "longitude": 35.541832,
-            "latitude": 139.788727,
-            "start_date": "2020-01-01",
-            "end_date": "2020-01-01",
-            "genre": "観光地",
-            "explanation": "None",
-            "picture": "https://cdn.4travel.jp/img/thumbnails/imk/tips_pict/18/65/74/650x450_18657470.jpg?updated_at=1653550434"
-        }
-    },
-    {
-        "model": "app.spot",
-        "pk": 649,
-        "fields": {
-            "name": "新宿三井ビル",
-            "address": "東京都新宿区西新宿2-1-1",
-            "phone_number": "None",
-            "longitude": 35.6919,
-            "latitude": 139.693904,
-            "start_date": "2020-01-01",
-            "end_date": "2020-01-01",
-            "genre": "観光地",
-            "explanation": "None",
-            "picture": "https://cdn.4travel.jp/img/thumbnails/imk/tips_pict/18/83/70/650x450_18837043.jpg?updated_at=1661052041"
-        }
-    },
-    {
-        "model": "app.spot",
-        "pk": 650,
-        "fields": {
-            "name": "アトレ吉祥寺",
-            "address": "東京都武蔵野市吉祥寺南町1-1-24",
-            "phone_number": "None",
-            "longitude": 35.703113,
-            "latitude": 139.579011,
-            "start_date": "2020-01-01",
-            "end_date": "2020-01-01",
-            "genre": "観光地",
-            "explanation": "None",
-            "picture": "https://cdn.4travel.jp/img/thumbnails/imk/tips_pict/18/81/60/650x450_18816025.jpg?updated_at=1660289236"
-        }
-    },
-    {
-        "model": "app.spot",
-        "pk": 651,
-        "fields": {
-            "name": "台東区立下町風俗資料館",
-            "address": "東京都台東区上野公園2-1",
-            "phone_number": "None",
-            "longitude": 35.712289,
-            "latitude": 139.772007,
-            "start_date": "2020-01-01",
-            "end_date": "2020-01-01",
-            "genre": "観光地",
-            "explanation": "None",
-            "picture": "https://cdn.4travel.jp/img/thumbnails/imk/tips_pict/11/75/55/650x450_11755501.jpg?updated_at=1399337698"
-        }
-    },
-    {
-        "model": "app.spot",
-        "pk": 652,
-        "fields": {
-            "name": "永代橋",
-            "address": "東京都中央区、江東区",
-            "phone_number": "None",
-            "longitude": 35.670639,
-            "latitude": 139.771989,
-            "start_date": "2020-01-01",
-            "end_date": "2020-01-01",
-            "genre": "観光地",
-            "explanation": "None",
-            "picture": "https://cdn.4travel.jp/img/thumbnails/imk/tips_pict/18/80/34/650x450_18803414.jpg?updated_at=1659798158"
-        }
-    },
-    {
-        "model": "app.spot",
-        "pk": 653,
-        "fields": {
-            "name": "本所松坂町公園",
-            "address": "東京都墨田区両国3-13-9",
-            "phone_number": "None",
-            "longitude": 35.693328,
-            "latitude": 139.794235,
-            "start_date": "2020-01-01",
-            "end_date": "2020-01-01",
-            "genre": "観光地",
-            "explanation": "None",
-            "picture": "https://cdn.4travel.jp/img/thumbnails/imk/tips_pict/18/55/36/650x450_18553633.jpg?updated_at=1649044676"
-        }
-    },
-    {
-        "model": "app.spot",
-        "pk": 654,
-        "fields": {
-            "name": "音無親水公園",
-            "address": "東京都北区王子本町1-1-1先",
-            "phone_number": "None",
-            "longitude": 35.753364,
-            "latitude": 139.735664,
-            "start_date": "2020-01-01",
-            "end_date": "2020-01-01",
-            "genre": "観光地",
-            "explanation": "None",
-            "picture": "https://cdn.4travel.jp/img/thumbnails/imk/tips_pict/18/81/39/650x450_18813930.jpg?updated_at=1660208710"
-        }
-    },
-    {
-        "model": "app.spot",
-        "pk": 655,
-        "fields": {
-            "name": "音無親水公園",
-            "address": "東京都北区王子本町1-1-1先",
-            "phone_number": "None",
-            "longitude": 35.753364,
-            "latitude": 139.735664,
-            "start_date": "2020-01-01",
-            "end_date": "2020-01-01",
-            "genre": "観光地",
-            "explanation": "None",
-            "picture": "https://cdn.4travel.jp/img/thumbnails/imk/tips_pict/18/81/39/650x450_18813930.jpg?updated_at=1660208710"
-        }
-    },
-    {
-        "model": "app.spot",
-        "pk": 656,
-        "fields": {
-            "name": "浅草オレンジ通り",
-            "address": "東京都台東区浅草1丁目",
-            "phone_number": "None",
-            "longitude": 35.712176,
-            "latitude": 139.794926,
-            "start_date": "2020-01-01",
-            "end_date": "2020-01-01",
-            "genre": "観光地",
-            "explanation": "None",
-            "picture": "https://cdn.4travel.jp/img/thumbnails/imk/tips_pict/18/84/41/650x450_18844176.jpg?updated_at=1661326326"
-        }
-    },
-    {
-        "model": "app.spot",
-        "pk": 657,
-        "fields": {
-            "name": "永代橋",
-            "address": "東京都中央区、江東区",
-            "phone_number": "None",
-            "longitude": 35.670639,
-            "latitude": 139.771989,
-            "start_date": "2020-01-01",
-            "end_date": "2020-01-01",
-            "genre": "観光地",
-            "explanation": "None",
-            "picture": "https://cdn.4travel.jp/img/thumbnails/imk/tips_pict/18/80/34/650x450_18803414.jpg?updated_at=1659798158"
-        }
-    },
-    {
-        "model": "app.spot",
-        "pk": 658,
-        "fields": {
-            "name": "洗足池公園",
-            "address": "東京都大田区南千束2-14-5",
-            "phone_number": "None",
-            "longitude": 35.602874,
-            "latitude": 139.689522,
-            "start_date": "2020-01-01",
-            "end_date": "2020-01-01",
-            "genre": "観光地",
-            "explanation": "None",
-            "picture": "https://cdn.4travel.jp/img/thumbnails/imk/tips_pict/18/80/69/650x450_18806916.jpg?updated_at=1659938225"
-        }
-    },
-    {
-        "model": "app.spot",
-        "pk": 659,
-        "fields": {
-            "name": "新宿三井ビル",
-            "address": "東京都新宿区西新宿2-1-1",
-            "phone_number": "None",
-            "longitude": 35.6919,
-            "latitude": 139.693904,
-            "start_date": "2020-01-01",
-            "end_date": "2020-01-01",
-            "genre": "観光地",
-            "explanation": "None",
-            "picture": "https://cdn.4travel.jp/img/thumbnails/imk/tips_pict/18/83/70/650x450_18837043.jpg?updated_at=1661052041"
-        }
-    },
-    {
-        "model": "app.spot",
-        "pk": 660,
-        "fields": {
-            "name": "旧新橋停車場鉄道歴史展示室",
-            "address": "東京都港区東新橋1-5-3",
-            "phone_number": "None",
-            "longitude": 35.665978,
-            "latitude": 139.761469,
-            "start_date": "2020-01-01",
-            "end_date": "2020-01-01",
-            "genre": "観光地",
-            "explanation": "None",
-            "picture": "https://cdn.4travel.jp/img/thumbnails/imk/tips_pict/18/79/96/650x450_18799636.jpg?updated_at=1659666301"
-        }
-    },
-    {
-        "model": "app.spot",
-        "pk": 661,
-        "fields": {
-            "name": "新宿マルイ本館",
-            "address": "東京都新宿区新宿3-30-13",
-            "phone_number": "None",
-            "longitude": 35.690928,
-            "latitude": 139.704072,
-            "start_date": "2020-01-01",
-            "end_date": "2020-01-01",
-            "genre": "観光地",
-            "explanation": "None",
-            "picture": "https://cdn.4travel.jp/img/thumbnails/imk/tips_pict/18/81/52/650x450_18815273.jpg?updated_at=1660268350"
-        }
-    },
-    {
-        "model": "app.spot",
-        "pk": 662,
-        "fields": {
-            "name": "表参道イルミネーション",
-            "address": "東京都渋谷区表参道",
-            "phone_number": "None",
-            "longitude": 35.667379,
-            "latitude": 139.707685,
-            "start_date": "2020-01-01",
-            "end_date": "2020-01-01",
-            "genre": "観光地",
-            "explanation": "None",
-            "picture": "https://cdn.4travel.jp/img/thumbnails/imk/tips_pict/14/35/53/650x450_14355309.jpg?updated_at=1482758977"
-        }
-    },
-    {
-        "model": "app.spot",
-        "pk": 663,
-        "fields": {
-            "name": "カレッタイルミネーション",
-            "address": "東京都港区東新橋1-8-2",
-            "phone_number": "None",
-            "longitude": 35.664958,
-            "latitude": 139.762514,
-            "start_date": "2020-01-01",
-            "end_date": "2020-01-01",
-            "genre": "観光地",
-            "explanation": "None",
-            "picture": "https://cdn.4travel.jp/img/thumbnails/imk/tips_pict/12/96/27/650x450_12962739.jpg?updated_at=1435911657"
-        }
-    },
-    {
-        "model": "app.spot",
-        "pk": 664,
-        "fields": {
-            "name": "浅草ホッピー通り(煮込み通り)",
-            "address": "東京都台東区浅草2丁目",
-            "phone_number": "None",
-            "longitude": 35.714313,
-            "latitude": 139.795246,
-            "start_date": "2020-01-01",
-            "end_date": "2020-01-01",
-            "genre": "観光地",
-            "explanation": "None",
-            "picture": "https://cdn.4travel.jp/img/thumbnails/imk/tips_pict/10/75/95/650x450_10759556.jpg?updated_at=1361236112"
-        }
-    },
-    {
-        "model": "app.spot",
-        "pk": 665,
-        "fields": {
             "name": "テレビ朝日",
             "address": "東京都港区六本木六丁目9番1号",
             "phone_number": "None",
@@ -9649,55 +9153,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 666,
-        "fields": {
-            "name": "愛宕神社参道",
-            "address": "東京都港区愛宕一丁目五番三号",
-            "phone_number": "None",
-            "longitude": 35.665069,
-            "latitude": 139.748515,
-            "start_date": "2020-01-01",
-            "end_date": "2020-01-01",
-            "genre": "観光地",
-            "explanation": "None",
-            "picture": "https://cdn.4travel.jp/img/thumbnails/imk/tips_pict/18/83/57/650x450_18835760.jpg?updated_at=1660995893"
-        }
-    },
-    {
-        "model": "app.spot",
-        "pk": 667,
-        "fields": {
-            "name": "東京宝塚劇場",
-            "address": "東京都千代田区有楽町1-1-3",
-            "phone_number": "None",
-            "longitude": 35.672936,
-            "latitude": 139.759056,
-            "start_date": "2020-01-01",
-            "end_date": "2020-01-01",
-            "genre": "観光地",
-            "explanation": "None",
-            "picture": "https://cdn.4travel.jp/img/thumbnails/imk/tips_pict/18/82/94/650x450_18829458.jpg?updated_at=1660756830"
-        }
-    },
-    {
-        "model": "app.spot",
-        "pk": 668,
-        "fields": {
-            "name": "巽櫓(桜田二重櫓)",
-            "address": "東京都千代田区千代田",
-            "phone_number": "None",
-            "longitude": 35.684465,
-            "latitude": 139.753708,
-            "start_date": "2020-01-01",
-            "end_date": "2020-01-01",
-            "genre": "観光地",
-            "explanation": "None",
-            "picture": "https://cdn.4travel.jp/img/thumbnails/imk/tips_pict/18/69/51/650x450_18695131.jpg?updated_at=1655102217"
-        }
-    },
-    {
-        "model": "app.spot",
-        "pk": 669,
+        "pk": 635,
         "fields": {
             "name": "パンダ橋",
             "address": "東京都台東区上野７丁目",
@@ -9713,23 +9169,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 670,
-        "fields": {
-            "name": "泰明小学校",
-            "address": "東京都中央区銀座5-1-13",
-            "phone_number": "None",
-            "longitude": 35.672339,
-            "latitude": 139.761333,
-            "start_date": "2020-01-01",
-            "end_date": "2020-01-01",
-            "genre": "観光地",
-            "explanation": "None",
-            "picture": "https://cdn.4travel.jp/img/thumbnails/imk/tips_pict/18/77/96/650x450_18779665.jpg?updated_at=1658843595"
-        }
-    },
-    {
-        "model": "app.spot",
-        "pk": 671,
+        "pk": 636,
         "fields": {
             "name": "西武(渋谷店)",
             "address": "東京都渋谷区宇田川町21-1",
@@ -9745,23 +9185,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 672,
-        "fields": {
-            "name": "西武(渋谷店)",
-            "address": "東京都渋谷区宇田川町21-1",
-            "phone_number": "None",
-            "longitude": 35.661525,
-            "latitude": 139.699715,
-            "start_date": "2020-01-01",
-            "end_date": "2020-01-01",
-            "genre": "観光地",
-            "explanation": "None",
-            "picture": "https://cdn.4travel.jp/img/thumbnails/imk/tips_pict/18/82/50/650x450_18825087.jpg?updated_at=1660607737"
-        }
-    },
-    {
-        "model": "app.spot",
-        "pk": 673,
+        "pk": 637,
         "fields": {
             "name": "東洋文庫",
             "address": "東京都文京区本駒込2-28-21",
@@ -9777,7 +9201,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 674,
+        "pk": 638,
         "fields": {
             "name": "巽櫓(桜田二重櫓)",
             "address": "東京都千代田区千代田",
@@ -9793,7 +9217,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 675,
+        "pk": 639,
         "fields": {
             "name": "泰明小学校",
             "address": "東京都中央区銀座5-1-13",
@@ -9809,7 +9233,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 676,
+        "pk": 640,
         "fields": {
             "name": "日比谷図書文化館",
             "address": "東京都千代田区日比谷公園1-4",
@@ -9825,7 +9249,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 677,
+        "pk": 641,
         "fields": {
             "name": "愛宕神社参道",
             "address": "東京都港区愛宕一丁目五番三号",
@@ -9841,7 +9265,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 678,
+        "pk": 642,
         "fields": {
             "name": "アトレ目黒",
             "address": "東京都品川区上大崎2-16-9",
@@ -9857,7 +9281,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 679,
+        "pk": 643,
         "fields": {
             "name": "グランデュオ蒲田",
             "address": "東京都大田区西蒲田7丁目68-1",
@@ -9873,7 +9297,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 680,
+        "pk": 644,
         "fields": {
             "name": "早稲田大学早稲田キャンパス",
             "address": "東京都新宿区西早稲田1-6-1",
@@ -9889,7 +9313,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 681,
+        "pk": 645,
         "fields": {
             "name": "新宿住友ビル",
             "address": "東京都新宿区西新宿2-6-1",
@@ -9905,7 +9329,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 682,
+        "pk": 646,
         "fields": {
             "name": "文京シビックセンター",
             "address": "東京都文京区春日1-16-21",
@@ -9921,7 +9345,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 683,
+        "pk": 647,
         "fields": {
             "name": "渋谷公園通り",
             "address": "渋谷区神南1丁目－2丁目",
@@ -9937,7 +9361,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 684,
+        "pk": 648,
         "fields": {
             "name": "開山堂両大師",
             "address": "東京都台東区上野公園14-5",
@@ -9953,7 +9377,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 685,
+        "pk": 649,
         "fields": {
             "name": "上野の森さくらテラス",
             "address": "東京都台東区上野公園1-54",
@@ -9969,7 +9393,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 686,
+        "pk": 650,
         "fields": {
             "name": "表参道イルミネーション",
             "address": "東京都渋谷区表参道",
@@ -9985,7 +9409,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 687,
+        "pk": 651,
         "fields": {
             "name": "百人番所",
             "address": "東京都千代田区千代田",
@@ -10001,7 +9425,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 688,
+        "pk": 652,
         "fields": {
             "name": "わかやま紀州館",
             "address": "東京都千代田区有楽町2丁目10番1号　東京交通会館地下1階",
@@ -10017,7 +9441,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 689,
+        "pk": 653,
         "fields": {
             "name": "テルミナ",
             "address": "東京都墨田区江東橋3-14-5",
@@ -10033,7 +9457,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 690,
+        "pk": 654,
         "fields": {
             "name": "浅草ホッピー通り(煮込み通り)",
             "address": "東京都台東区浅草2丁目",
@@ -10049,7 +9473,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 691,
+        "pk": 655,
         "fields": {
             "name": "江戸桜通り",
             "address": "東京都中央区日本橋本町1-5、本石町1-3",
@@ -10065,7 +9489,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 692,
+        "pk": 656,
         "fields": {
             "name": "カレッタイルミネーション",
             "address": "東京都港区東新橋1-8-2",
@@ -10081,7 +9505,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 693,
+        "pk": 657,
         "fields": {
             "name": "六角堂",
             "address": "東京都台東区浅草2-3-5",
@@ -10097,7 +9521,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 694,
+        "pk": 658,
         "fields": {
             "name": "東京ステーションギャラリー",
             "address": "東京都千代田区丸の内1-9-1",
@@ -10113,7 +9537,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 695,
+        "pk": 659,
         "fields": {
             "name": "東京宝塚劇場",
             "address": "東京都千代田区有楽町1-1-3",
@@ -10129,7 +9553,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 696,
+        "pk": 660,
         "fields": {
             "name": "ミキモト(本店)",
             "address": "東京都中央区銀座4-5-5",
@@ -10145,7 +9569,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 697,
+        "pk": 661,
         "fields": {
             "name": "三の丸尚蔵館",
             "address": "東京都千代田区　皇居東御苑",
@@ -10161,7 +9585,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 698,
+        "pk": 662,
         "fields": {
             "name": "赤坂氷川神社",
             "address": "東京都港区赤坂6-10-12",
@@ -10177,7 +9601,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 699,
+        "pk": 663,
         "fields": {
             "name": "日本橋とやま館",
             "address": "東京都中央区日本橋室町1-2-6",
@@ -10193,39 +9617,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 700,
-        "fields": {
-            "name": "北桔橋門",
-            "address": "東京都千代田区千代田",
-            "phone_number": "None",
-            "longitude": 35.684465,
-            "latitude": 139.753708,
-            "start_date": "2020-01-01",
-            "end_date": "2020-01-01",
-            "genre": "観光地",
-            "explanation": "None",
-            "picture": "https://cdn.4travel.jp/img/thumbnails/imk/tips_pict/18/69/33/650x450_18693390.jpg?updated_at=1655022667"
-        }
-    },
-    {
-        "model": "app.spot",
-        "pk": 701,
-        "fields": {
-            "name": "キャロットタワー",
-            "address": "東京都世田谷区太子堂4-1-1",
-            "phone_number": "None",
-            "longitude": 35.644217,
-            "latitude": 139.668926,
-            "start_date": "2020-01-01",
-            "end_date": "2020-01-01",
-            "genre": "観光地",
-            "explanation": "None",
-            "picture": "https://cdn.4travel.jp/img/thumbnails/imk/tips_pict/18/84/24/650x450_18842490.jpg?updated_at=1661256522"
-        }
-    },
-    {
-        "model": "app.spot",
-        "pk": 702,
+        "pk": 664,
         "fields": {
             "name": "東京都写真美術館",
             "address": "東京都目黒区三田１-１３-３　恵比寿ガーデンプレイス内",
@@ -10241,23 +9633,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 703,
-        "fields": {
-            "name": "虎ノ門金刀比羅宮",
-            "address": "東京都港区虎ノ門1-2-7",
-            "phone_number": "None",
-            "longitude": 35.669568,
-            "latitude": 139.748003,
-            "start_date": "2020-01-01",
-            "end_date": "2020-01-01",
-            "genre": "観光地",
-            "explanation": "None",
-            "picture": "https://cdn.4travel.jp/img/thumbnails/imk/tips_pict/18/71/22/650x450_18712282.jpg?updated_at=1655891190"
-        }
-    },
-    {
-        "model": "app.spot",
-        "pk": 704,
+        "pk": 665,
         "fields": {
             "name": "道玄坂",
             "address": "東京都渋谷区道玄坂1丁目",
@@ -10273,7 +9649,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 705,
+        "pk": 666,
         "fields": {
             "name": "モザイク通り",
             "address": "東京都新宿区西新宿",
@@ -10289,7 +9665,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 706,
+        "pk": 667,
         "fields": {
             "name": "サニーヒルズ",
             "address": "東京都港区南青山3-10-20",
@@ -10305,7 +9681,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 707,
+        "pk": 668,
         "fields": {
             "name": "TOHOシネマズ新宿",
             "address": "東京都新宿区歌舞伎町1-19-1",
@@ -10321,7 +9697,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 708,
+        "pk": 669,
         "fields": {
             "name": "北海道どさんこプラザ羽田空港店",
             "address": "東京都大田区羽田空港",
@@ -10337,7 +9713,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 709,
+        "pk": 670,
         "fields": {
             "name": "チームラボプラネッツTOKYODMM.com",
             "address": "東京都江東区豊洲6-1-16",
@@ -10353,7 +9729,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 710,
+        "pk": 671,
         "fields": {
             "name": "城南島海浜公園",
             "address": "東京都大田区城南島４-２-２",
@@ -10369,23 +9745,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 711,
-        "fields": {
-            "name": "早稲田大学大隈記念講堂",
-            "address": "東京都新宿区戸塚町1-104",
-            "phone_number": "None",
-            "longitude": 35.709602,
-            "latitude": 139.723038,
-            "start_date": "2020-01-01",
-            "end_date": "2020-01-01",
-            "genre": "観光地",
-            "explanation": "None",
-            "picture": "https://cdn.4travel.jp/img/thumbnails/imk/tips_pict/18/83/61/650x450_18836198.jpg?updated_at=1661007951"
-        }
-    },
-    {
-        "model": "app.spot",
-        "pk": 712,
+        "pk": 672,
         "fields": {
             "name": "にほんばし島根館",
             "address": "東京都中央区日本橋室町1-5-3",
@@ -10401,7 +9761,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 713,
+        "pk": 673,
         "fields": {
             "name": "虎ノ門金刀比羅宮",
             "address": "東京都港区虎ノ門1-2-7",
@@ -10417,7 +9777,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 714,
+        "pk": 674,
         "fields": {
             "name": "熊野神社(東京都新宿区)",
             "address": "東京都新宿区西新宿2-11-2",
@@ -10433,7 +9793,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 715,
+        "pk": 675,
         "fields": {
             "name": "早稲田大学大隈記念講堂",
             "address": "東京都新宿区戸塚町1-104",
@@ -10449,23 +9809,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 716,
-        "fields": {
-            "name": "船橋屋亀戸天神前本店",
-            "address": "東京都江東区亀戸3-2-14",
-            "phone_number": "None",
-            "longitude": 35.70164,
-            "latitude": 139.820005,
-            "start_date": "2020-01-01",
-            "end_date": "2020-01-01",
-            "genre": "観光地",
-            "explanation": "None",
-            "picture": "https://cdn.4travel.jp/img/thumbnails/imk/tips_pict/18/84/17/650x450_18841717.jpg?updated_at=1661227305"
-        }
-    },
-    {
-        "model": "app.spot",
-        "pk": 717,
+        "pk": 676,
         "fields": {
             "name": "平川門",
             "address": "東京都千代田区千代田",
@@ -10481,7 +9825,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 718,
+        "pk": 677,
         "fields": {
             "name": "学士会館",
             "address": "千代田区神田錦町3-28",
@@ -10497,7 +9841,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 719,
+        "pk": 678,
         "fields": {
             "name": "サニーヒルズ",
             "address": "東京都港区南青山3-10-20",
@@ -10513,7 +9857,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 720,
+        "pk": 679,
         "fields": {
             "name": "北桔橋門",
             "address": "東京都千代田区千代田",
@@ -10529,7 +9873,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 721,
+        "pk": 680,
         "fields": {
             "name": "船橋屋亀戸天神前本店",
             "address": "東京都江東区亀戸3-2-14",
@@ -10545,7 +9889,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 722,
+        "pk": 681,
         "fields": {
             "name": "神楽坂通り",
             "address": "東京都新宿区神楽坂",
@@ -10561,7 +9905,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 723,
+        "pk": 682,
         "fields": {
             "name": "フジテレビショップ(東京キャラクターストリート)",
             "address": "東京都千代田区丸の内1-9-1",
@@ -10577,7 +9921,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 724,
+        "pk": 683,
         "fields": {
             "name": "常盤橋",
             "address": "東京都千代田区大手町２",
@@ -10593,7 +9937,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 725,
+        "pk": 684,
         "fields": {
             "name": "スターの広場",
             "address": "東京都台東区浅草１－３８－６",
@@ -10609,7 +9953,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 726,
+        "pk": 685,
         "fields": {
             "name": "キャロットタワー",
             "address": "東京都世田谷区太子堂4-1-1",
@@ -10625,7 +9969,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 727,
+        "pk": 686,
         "fields": {
             "name": "西銀座通り(外堀通り)",
             "address": "東京都中央区銀座1丁目～８丁目　外堀通り沿い",
@@ -10641,7 +9985,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 728,
+        "pk": 687,
         "fields": {
             "name": "松屋通り",
             "address": "東京都中央区銀座3丁目～４丁目",
@@ -10657,7 +10001,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 729,
+        "pk": 688,
         "fields": {
             "name": "レゴランドディスカバリーセンター東京",
             "address": "東京都港区台場1-6-1",
@@ -10673,7 +10017,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 730,
+        "pk": 689,
         "fields": {
             "name": "Bunkamura",
             "address": "東京都渋谷区道玄坂2-24-1",
@@ -10689,7 +10033,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 731,
+        "pk": 690,
         "fields": {
             "name": "東急プラザ蒲田",
             "address": "東京都大田区西蒲田7-69-1",
@@ -10705,7 +10049,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 732,
+        "pk": 691,
         "fields": {
             "name": "宮城ふるさとプラザ[COCOMIYAGI]",
             "address": "東京都豊島区東池袋1丁目2-2",
@@ -10721,7 +10065,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 733,
+        "pk": 692,
         "fields": {
             "name": "日本橋長崎館",
             "address": "東京都中央区日本橋2-1-3",
@@ -10737,7 +10081,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 734,
+        "pk": 693,
         "fields": {
             "name": "台徳院霊廟惣門",
             "address": "東京都港区芝公園4-8",
@@ -10753,7 +10097,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 735,
+        "pk": 694,
         "fields": {
             "name": "銀座プレイス",
             "address": "東京都中央区銀座5-8-1",
@@ -10769,7 +10113,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 736,
+        "pk": 695,
         "fields": {
             "name": "本龍院(待乳山聖天)",
             "address": "東京都台東区浅草7-4-1",
@@ -10785,7 +10129,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 737,
+        "pk": 696,
         "fields": {
             "name": "台場一丁目商店街",
             "address": "東京都港区台場1-6-1",
@@ -10801,7 +10145,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 738,
+        "pk": 697,
         "fields": {
             "name": "大番所",
             "address": "東京都千代田区千代田",
@@ -10817,7 +10161,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 739,
+        "pk": 698,
         "fields": {
             "name": "科学技術館",
             "address": "東京都千代田区北の丸公園",
@@ -10833,7 +10177,7 @@
     },
     {
         "model": "app.spot",
-        "pk": 740,
+        "pk": 699,
         "fields": {
             "name": "肥後細川庭園",
             "address": "東京都文京区目白台1-1-22",
