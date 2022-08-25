@@ -4,5 +4,6 @@ urlpatterns = [
     path('api/profile/', views.ProfileListCreate.as_view() ),
     path('api/user/', views.UserListCreate.as_view() ),
     path('api/spot_search/', views.SpotListCreate.as_view() ),
+    path('api/nearby_spot/', views.NearBySpotListCreate.as_view() ),
     path('api/favorite_spot/', views.FavoriteSpotListCreate.as_view() ),
 ]

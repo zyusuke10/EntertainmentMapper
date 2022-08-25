@@ -1,5 +1,5 @@
 from rest_framework import serializers
-from app.models import Profile, User, Spot, FavoriteSpot
+from .models import Profile, User, Spot, FavoriteSpot, RequestSpot, GenreType, SpotType
 class ProfileSerializer(serializers.ModelSerializer):
     class Meta:
         model = Profile
@@ -16,3 +16,9 @@ class FavoriteSpotSerializer(serializers.ModelSerializer):
     class Meta:
         model = FavoriteSpot
         fields = ('id', 'spot_id', 'user_id')
+
+class RequestSpotSerializer(serializers.Serializer):
+    genre = serializers.ChoiceField(choices=GenreType.choices, required=False)
+    place = serializers.ChoiceField(choices=SpotType.choices, required=False)
+    date = serializers.DateField()
+    keyword = serializers.CharField()
