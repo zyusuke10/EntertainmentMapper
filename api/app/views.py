@@ -7,16 +7,9 @@ from app.serializers import *
 from rest_framework import generics
 from app import spot_distance
 
-from django.contrib.auth import authenticate
-from django.db import transaction
-from django.http import HttpResponse, Http404
-from rest_framework import authentication, permissions, generics
-from rest_framework_jwt.settings import api_settings
-from rest_framework.exceptions import AuthenticationFailed
-from rest_framework.response import Response
-from rest_framework import status, viewsets, filters
-from rest_framework.views import APIView
+from rest_framework import generics
 from .serializers import UserSerializer
+from rest_framework.permissions import AllowAny
 
 class ProfileListCreate(generics.ListCreateAPIView):
     queryset = Profile.objects.all()
@@ -54,18 +47,9 @@ class FavoriteSpotListCreate(generics.ListCreateAPIView):
 
 
 # ユーザ作成のView(POST)
-class AuthRegister(generics.CreateAPIView):
-    permission_classes = (permissions.AllowAny,)
-    queryset = User.objects.all()
+class CreateUserView(generics.CreateAPIView):
     serializer_class = UserSerializer
-
-    @transaction.atomic
-    def post(self, request, format=None):
-        serializer = UserSerializer(data=request.data)
-        if serializer.is_valid():
-            serializer.save()
-            return Response(serializer.data, status=status.HTTP_201_CREATED)
-        return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
+    permission_classes = (AllowAny,)
 
 class NearBySpotListCreate(generics.ListCreateAPIView):
     queryset = spot_distance.SearchNearBySpot(Spot.objects.all())

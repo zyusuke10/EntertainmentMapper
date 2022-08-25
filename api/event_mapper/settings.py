@@ -11,6 +11,7 @@ https://docs.djangoproject.com/en/3.1/ref/settings/
 """
 
 from pathlib import Path
+from datetime import timedelta
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -40,6 +41,7 @@ INSTALLED_APPS = [
     'app',
     'rest_framework',
     'corsheaders',
+    'djoser',  # 追加
 ]
 
 MIDDLEWARE = [
@@ -104,6 +106,7 @@ AUTH_PASSWORD_VALIDATORS = [
 ]
 
 # JWT settings
+"""
 JWT_AUTH = {
     'JWT_VERIFY_EXPIRATION': False,
     'JWT_AUTH_HEADER_PREFIX': 'JWT',
@@ -118,6 +121,22 @@ REST_FRAMEWORK = {
     ),  
     'NON_FIELD_ERRORS_KEY': 'detail',
     'TEST_REQUEST_DEFAULT_FORMAT': 'json'
+}
+"""
+
+# 追加
+SIMPLE_JWT = {
+	'AUTH_HEADER_TYPES': ('JWT',),
+	'ACCESS_TOKEN_LIFETIME': timedelta(days=10),  # アクセストークンの賞味期限
+}
+
+REST_FRAMEWORK = {
+	'DEFAULT_PERMISSION_CLASSES': [
+		'rest_framework.permissions.IsAuthenticated',  # デフォルトのアクセス制限
+	],
+	'DEFAULT_AUTHENTICATION_CLASSES': [
+		'rest_framework_simplejwt.authentication.JWTAuthentication',  # 認証に「JWT」を利用する設定
+	],
 }
 
 

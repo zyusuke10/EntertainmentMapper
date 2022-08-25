@@ -1,9 +1,8 @@
 from django.urls import path
 from . import views
-from rest_framework_jwt.views import obtain_jwt_token
-from .views import AuthRegister
 from django.conf.urls import include, url
 from rest_framework import routers
+from app.views import CreateUserView
 
 urlpatterns = [
     path('api/profile/', views.ProfileListCreate.as_view() ),
@@ -11,5 +10,6 @@ urlpatterns = [
     path('api/spot_search/', views.SpotListCreate.as_view() ),
     path('api/nearby_spot/', views.NearBySpotListCreate.as_view() ),
     path('api/favorite_spot/', views.FavoriteSpotListCreate.as_view() ),
-    url(r'^login/', obtain_jwt_token),
+    path('register/', CreateUserView.as_view(), name='register'),  # 追加
+    path('auth/', include('djoser.urls.jwt')),  # 追加
 ]

@@ -3,3 +3,6 @@ djangorestframework==3.12.2
 django-cors-headers==3.5.0
 geocoder
 djangorestframework-jwt
+django-cors-headers
+djangorestframework-simplejwt
+djoser
