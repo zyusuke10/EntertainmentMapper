@@ -3,7 +3,7 @@ import { MapContainer, Marker, Popup, TileLayer, useMap } from "react-leaflet";
 import "./Map.css";
 import useGeolocation from "../hooks/useGeolocation";
 import * as L from "leaflet";
-import Markers from "./Marker";
+import Markers from "./Markers";
 
 const Map = ({ data }) => {
   const zoom = 10;
