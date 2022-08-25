@@ -16,7 +16,7 @@ class ProfileSerializer(serializers.ModelSerializer):
 class SpotSerializer(serializers.ModelSerializer):
     class Meta:
         model = Spot
-        fields = ('id', 'name', 'genre', 'address', 'phone_number', 'longitude', 'latitude', 'start_date', 'end_date', 'explanation', 'picture')
+        fields = ('id', 'name', 'genre', 'address', 'phone_number', 'longitude', 'latitude', 'start_date', 'end_date', 'explanation', 'picture', 'isfavorite')
 class FavoriteSpotSerializer(serializers.ModelSerializer):
     class Meta:
         model = FavoriteSpot

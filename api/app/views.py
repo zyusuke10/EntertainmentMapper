@@ -41,14 +41,13 @@ class SpotListCreate(generics.ListCreateAPIView):
             queryset = queryset.filter(explanation__icontains=keyword)
         if queryset is None:
             raise ValidationError('No matching spot found')
-
+        return queryset
         response = []
         # s.user_id = 1 は1のところにフロントから取ってきたuser_idが入る予定
         user_favorite_spots = filter(lambda s: s.user_id == 1, FavoriteSpot.objects.all())
         for f_spot in user_favorite_spots:
             for spot in queryset:
                 if f_spot.spot_id == spot.id:
-                    return spot
                     spot.isfavorite = 1
                 else:
                     spot.isfavorite = 0
