@@ -30,7 +30,7 @@ const reducer = (state, action) => {
     return {
       ...state,
       isLoading: false,
-      // token: action.payload.token,
+      id: action.payload.id,
       // user: action.payload.user,
     };
   }

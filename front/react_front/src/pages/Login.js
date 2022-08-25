@@ -7,8 +7,7 @@ import { useAppContext } from "../context/appContext";
 // import { useNavigate } from "react-router-dom";
 
 const initialState = {
-  name: "",
-  email: "",
+  username: "",
   password: "",
   isMember: true,
 };
@@ -26,8 +25,8 @@ const Login = () => {
   const submitHandler = (e) => {
     e.preventDefault();
 
-    const { name, email, password, isMember } = values;
-    const currentUser = { name, email, password };
+    const { username, password, isMember } = values;
+    const currentUser = { username, password };
 
     if (isMember) {
       loginUser(currentUser);
@@ -55,27 +54,19 @@ const Login = () => {
           <h3>{values.isMember ? "Login" : "Register"}</h3>
           <FormRow
             type="text"
-            name="name"
-            labelText="name"
-            value={values.name}
+            name="username"
+            labelText="username"
+            value={values.username}
             handleChange={inputHandler}
           />
+
           <FormRow
-            type="email"
-            name="email"
-            labelText="email"
-            value={values.name}
+            type="password"
+            name="password"
+            labelText="password"
+            value={values.password}
             handleChange={inputHandler}
           />
-          {!values.isMember && (
-            <FormRow
-              type="password"
-              name="password"
-              labelText="password"
-              value={values.name}
-              handleChange={inputHandler}
-            />
-          )}
 
           <button type="submit" className="btn" disabled={isLoading}>
             Submit
