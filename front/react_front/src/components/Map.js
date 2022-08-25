@@ -3,20 +3,10 @@ import { MapContainer, Marker, Popup, TileLayer, useMap } from "react-leaflet";
 import "./Map.css";
 import useGeolocation from "../hooks/useGeolocation";
 import * as L from "leaflet";
+import Markers from "./Marker";
 
 const Map = ({ data }) => {
-  const currentLocation = [35.68944, 139.69167]; //現在位置の表示
   const zoom = 10;
-  const {
-    name,
-    address,
-    longitude,
-    latitude,
-    start_date,
-    genre,
-    picture,
-    explanation,
-  } = data;
   const position = [35.68944, 139.69167]; //positionを使ってイベントや観光地の場所にピンを置く
   const [isClear, setIsClear] = useState(false);
   const location = useGeolocation();
@@ -53,20 +43,28 @@ const Map = ({ data }) => {
           url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
         />
         {!isClear &&
-          data.map((item, index) => {
-            const { name, start_date, explanation, picture } = item;
+          data.flat().map((item,index) => {
+            const {
+              name,
+              start_date,
+              explanation,
+              picture,
+              id,
+              latitude,
+              longitude,
+            } = item;
+            const positions = L.latLng(latitude, longitude)
             return (
-              <Marker position={position} key={index} icon={greenIcon}>
-                <Popup>
-                  {picture}
-                  <br></br>
-                  {name}
-                  <br></br>
-                  {start_date}
-                  <br></br>
-                  {explanation}
-                </Popup>
-              </Marker>
+              <Markers
+                positions={positions}
+                id={id}
+                greenIcon={greenIcon}
+                picture={picture}
+                start_date={start_date}
+                explanation={explanation}
+                name={name}
+                key={index}
+              />
             );
           })}
         {location.loaded && !location.error && (
