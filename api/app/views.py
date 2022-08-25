@@ -5,8 +5,7 @@ from rest_framework.response import Response
 from app.models import Profile, User, Spot, FavoriteSpot
 from app.serializers import *
 from rest_framework import generics
-from django.db.models import Q
-
+from app import spot_distance
 class ProfileListCreate(generics.ListCreateAPIView):
     queryset = Profile.objects.all()
     serializer_class = ProfileSerializer
@@ -40,3 +39,6 @@ class SpotListCreate(generics.ListCreateAPIView):
 class FavoriteSpotListCreate(generics.ListCreateAPIView):
     queryset = FavoriteSpot.objects.all()
     serializer_class = FavoriteSpotSerializer
+class NearBySpotListCreate(generics.ListCreateAPIView):
+    queryset = spot_distance.SearchNearBySpot(Spot.objects.all())
+    serializer_class = SpotSerializer
