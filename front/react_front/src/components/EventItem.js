@@ -1,7 +1,9 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import "./EventItem.css";
+import axios from "axios";
 
 export const EventItem = () => {
+
   return (
     <div className="event-item">
       <p className="event-item-title">イベント名</p>
@@ -10,3 +12,4 @@ export const EventItem = () => {
     </div>
   );
 };
+
