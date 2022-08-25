@@ -54,4 +54,3 @@ class CreateUserView(generics.CreateAPIView):
 class NearBySpotListCreate(generics.ListCreateAPIView):
     queryset = spot_distance.SearchNearBySpot(Spot.objects.all())
     serializer_class = SpotSerializer
-
