@@ -5,7 +5,7 @@ from rest_framework.response import Response
 from app.models import Profile, User, Spot, FavoriteSpot
 from app.serializers import *
 from rest_framework import generics
-from django.db.models import Q
+from app import spot_distance
 
 from django.contrib.auth import authenticate
 from django.db import transaction
@@ -52,6 +52,7 @@ class FavoriteSpotListCreate(generics.ListCreateAPIView):
     queryset = FavoriteSpot.objects.all()
     serializer_class = FavoriteSpotSerializer
 
+
 # ユーザ作成のView(POST)
 class AuthRegister(generics.CreateAPIView):
     permission_classes = (permissions.AllowAny,)
@@ -65,3 +66,8 @@ class AuthRegister(generics.CreateAPIView):
             serializer.save()
             return Response(serializer.data, status=status.HTTP_201_CREATED)
         return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
+
+class NearBySpotListCreate(generics.ListCreateAPIView):
+    queryset = spot_distance.SearchNearBySpot(Spot.objects.all())
+    serializer_class = SpotSerializer
+
