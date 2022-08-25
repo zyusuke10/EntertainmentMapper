@@ -1,4 +1,4 @@
-import React, { Fragment, useEffect } from "react";
+import React, { Fragment, useEffect, useState } from "react";
 import MenuIcon from "@mui/icons-material/Menu";
 import ArrowDropDownIcon from "@mui/icons-material/ArrowDropDown";
 import Map from "../components/Map";
@@ -7,11 +7,20 @@ import { EventItem } from "../components/EventItem";
 import axios from "axios";
 
 const Home = () => {
-  
+  const [data, setData] = useState([]); //APIを叩いて取得したデータを格納する
+  const clickHandler = (e) => {
+    console.log(e);
+  };
   const fetchData = async () => {
-    const { data } = await axios.get("http://localhost:8000/api/spot_search");
-    const { name, address, start_date } = data;
-    console.log(name);
+    try {
+      const { data } = await axios.get(
+        "http://localhost:8000/api/spot_search/"
+      );
+      setData([data]);
+      console.log(data);
+    } catch (error) {
+      console.log(error);
+    }
   };
 
   useEffect(() => {
@@ -22,7 +31,7 @@ const Home = () => {
     <Fragment>
       <header>
         <div className="title">
-          <h2>イベントマップ</h2>
+          <h2>娯楽マップ</h2>
           <MenuIcon className="menu-icon" />
         </div>
       </header>
@@ -33,20 +42,36 @@ const Home = () => {
             className="event-search"
             type="text"
             name="event"
-            placeholder="イベント名検索"
+            placeholder="イベント名・観光地　検索"
           />
           <ArrowDropDownIcon className="filter-icon" />
         </div>
         <div className="map-box">
-          <Map />
+          <Map data={data} />
         </div>
+      </div>
+
+      <div className="color-container">
+        <div className="green">イベント・観光地</div>
+        <div className="blue">現在地</div>
       </div>
 
       <div className="eventList-container">
         <div className="event-list-title">
-          <h2>イベント一覧</h2>
+          <h2>娯楽一覧</h2>
         </div>
-        <EventItem />
+        {data.map((item, index) => {
+          const { name, address, start_date } = item;
+          return (
+            <EventItem
+              name={name}
+              address={address}
+              date={start_date}
+              key={index}
+              onClick={clickHandler}
+            />
+          );
+        })}
       </div>
     </Fragment>
   );
