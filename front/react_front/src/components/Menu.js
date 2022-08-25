@@ -1,7 +1,9 @@
 import { useState, useRef, useEffect } from 'react'
 import './Menu.css'
-import Icon from './logout.svg'
-
+import Icon from '../../image/logout.svg'
+import { Link } from 'react-router-dom'
+//お気に入りページのLink修正必要(現段階ではとりあえずHomeに設定)
+//headerにおくメニューコンポーネント
 const Menu = () => {
     const [isOpen, setIsOpen] = useState(false);
     const dropdownRef = useRef();
@@ -33,16 +35,20 @@ const Menu = () => {
                   
                     <li class="gnavi__list">
                     <ul class="dropdown__lists">
-                      
-                        <li class="dropdown__list"><a href="#">イベントマップ</a></li>
-                        <li class="dropdown__list"><a href="#">お気に入りのイベント</a></li>
-                        <li class="dropdown__list"><a href="#">Googleカレンダー連携</a></li>
-                        <li class="dropdown__list"><a href="#">ログアウト<img class="text_img" src={Icon}></img></a></li>
+                        <li class="dropdown__list"><Link to="../pages/Home">イベントマップ</Link></li>
+                        <li class="dropdown__list"><Link to="../pages/Home">お気に入りのイベント</Link></li> 
+                        <li class="dropdown__list"><Link to="../pages/Alignment">Googleカレンダー連携</Link></li>
+                        <li class="dropdown__list"><Link to="../pages/Login">ログアウト<img class="text_img" src={Icon}></img></Link></li>
+                        
                     </ul>
+                    
                 </li>
+                
                 )}
+                
             </div>
         </>
+        
     )
 }
 
