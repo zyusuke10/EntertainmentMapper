@@ -23,7 +23,7 @@ export const Favorite = () => {
     <>
       <header>
         <div className="title">
-          <h2>娯楽マップ</h2>
+          <h2>エンターテイメントマップ</h2>
           <Menu />
         </div>
       </header>
