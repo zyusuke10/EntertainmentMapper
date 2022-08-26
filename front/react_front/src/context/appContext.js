@@ -8,48 +8,54 @@ import {
   LOGIN_USER_SUCCESS,
   LOGOUT_USER,
 } from "./action";
+import { Navigate } from "react-router-dom";
 
-// const token = localStorage.getItem("token");
-// const user = localStorage.getItem("user");
-// const userLocation = localStorage.getItem("location");
+const access = localStorage.getItem("access");
+const id = localStorage.getItem("id");
 
 const initialState = {
   isLoading: false,
-  //   user: user ? JSON.parse(user) : null,
-  //   token: token || null,
+  access: access || null,
+  id: id || null,
 };
 
 const AppContext = React.createContext();
 
 const AppProvider = ({ children }) => {
+  const authFetch = axios.create({
+    baseURL: "http://localhost:8000/",
+  });
+
+  const generalApiInterface = axios.create({
+    baseURL: "http://localhost:8000/",
+    headers: {
+      Authorization: `JWT ${initialState.access}`,
+    },
+  });
+
   const [state, dispatch] = useReducer(reducer, initialState);
   const [favoriteList, setFavoriteList] = useState([]);
   // const [isClear, setIsClear] = useState(false);
 
-  // const addUserToLocalStorage = ({ user, token }) => {
-  // //   localStorage.setItem("user", JSON.stringify(user));
-  // //   localStorage.setItem("token", token);
-  // };
+  const [eventClickName, setEventClickName] = useState("");
 
-  // const removeUserFromLocalStorage = () => {
-  // //   localStorage.removeItem("user");
-  // //   localStorage.removeItem("token");
-  // };
+  const addUserToLocalStorage = ({ id, access }) => {
+    localStorage.setItem("access", access);
+    localStorage.setItem("id", id);
+  };
+
+  const removeUserFromLocalStorage = () => {
+    localStorage.removeItem("access");
+  };
 
   const registerUser = async (currentUser) => {
     dispatch({ type: REGISTER_USER_BEGIN });
     try {
       const { data } = await axios.post(
-        "http://localhost:8000//api/signin",
+        "http://localhost:8000/api/register/",
         currentUser
       );
-      // console.log(response);
-      const { user, token } = data;
-      dispatch({
-        type: REGISTER_USER_SUCCESS,
-        payload: { user, token },
-      });
-      //   addUserToLocalStorage({ user, token });
+      dispatch({ type: REGISTER_USER_SUCCESS });
     } catch (error) {
       console.log(error.response);
     }
@@ -59,16 +65,26 @@ const AppProvider = ({ children }) => {
     dispatch({ type: LOGIN_USER_BEGIN });
     try {
       const { data } = await axios.post(
-        "http://localhost:8000//api/login",
+        "http://localhost:8000/api/auth/jwt/create",
         currentUser
       );
-      // console.log(response);
-      const { user, token } = data;
-      dispatch({
-        type: LOGIN_USER_SUCCESS,
-        payload: { user, token },
-      });
-      //   addUserToLocalStorage({ user, token});
+      const { access } = data;
+      addUserToLocalStorage({ access });
+
+      generalApiInterface
+        .get("api/auth/users/me/")
+        .then((response) => {
+          const { id } = response.data;
+          addUserToLocalStorage({ id });
+          dispatch({
+            type: LOGIN_USER_SUCCESS,
+            payload: { id },
+          });
+        })
+        .catch((error) => {
+          console.log(error);
+        })
+        .finally(() => {});
     } catch (error) {
       console.log(error.response);
     }
@@ -76,7 +92,7 @@ const AppProvider = ({ children }) => {
 
   const logoutUser = () => {
     dispatch({ type: LOGOUT_USER });
-    // removeUserFromLocalStorage();
+    removeUserFromLocalStorage();
   };
 
   return (
@@ -85,11 +101,11 @@ const AppProvider = ({ children }) => {
         ...state,
         registerUser,
         loginUser,
-        logoutUser,
         favoriteList,
         setFavoriteList,
-        // isClear,
-        // setIsClear
+        logoutUser,
+        eventClickName,
+        setEventClickName
       }}
     >
       {children}

@@ -1,0 +1,25 @@
+.event-item {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.event-item p {
+  margin-left: 1rem;
+}
+
+.event-item-title {
+color: deepskyblue;
+}
+
+.event-item-time {
+  margin-top: -1rem;
+}
+
+.event-item-location {
+  margin-top: -1rem;
+}
+
+.event-item-container{
+  border-bottom: 1px solid black;
+}

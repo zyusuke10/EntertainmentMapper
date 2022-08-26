@@ -2,6 +2,7 @@ import React, { Fragment, useEffect, useState } from "react";
 import MenuIcon from "@mui/icons-material/Menu";
 import ArrowDropDownIcon from "@mui/icons-material/ArrowDropDown";
 import Map from "../components/Map";
+import Menu from "../components/Menu";
 import "./Home.css";
 import { EventItem } from "../components/EventItem";
 import axios from "axios";
@@ -13,6 +14,7 @@ import {
   Popup,
   LayersControl,
   LayerGroup,
+  TileLayer,
 } from "react-leaflet";
 import * as L from "leaflet";
 // import { useAppContext } from "../context/appContext";
@@ -24,9 +26,7 @@ const Home = () => {
   const [prefecture, setPrefecture] = useState("");
   const [genre, setGenre] = useState("");
   const [date, setDate] = useState("");
-  const [eventClickName, setEventClickName] = useState("");
-
-  // const { isClear, setIsClear } = useAppContext();
+  const [filteredList, setFilteredList] = useState([]);
 
   const LeafIcon = L.Icon.extend({
     options: {},
@@ -49,6 +49,7 @@ const Home = () => {
         "http://localhost:8000/api/spot_search/"
       );
       setData([data]);
+      setFilteredList([data]);
     } catch (error) {
       console.log(error);
     }
@@ -66,7 +67,7 @@ const Home = () => {
     e.preventDefault();
 
     if (searchInput.trim() !== "") {
-      const searchFilteredData = data
+      const searchFilteredData = filteredList
         .flat()
         .filter((item) => item.name.includes(searchInput));
       setData(searchFilteredData);
@@ -82,10 +83,10 @@ const Home = () => {
     if (!date || !genre || !prefecture) {
       return;
     } else {
-      const deeplyFilteredData = data.flat().filter((item) => {
+      const deeplyFilteredData = filteredList.flat().filter((item) => {
         return (
-          item.genre === genre &&
-          item.start_date.substring(5, 7).includes(date.charAt(0)) &&
+          (item.genre === genre &&
+            item.start_date.substring(5, 7).includes(date.charAt(0))) ||
           item.address.includes(prefecture)
         );
       });
@@ -97,32 +98,12 @@ const Home = () => {
     }
   };
 
-  const addMarker = (name, data) => {
-    const specificData = data.flat().filter((item) => item.name === name);
-    const { positions, id, picture, start_date } = specificData;
-    return (
-      <Marker
-        position={positions}
-        key={id}
-        icon={specificData.genre === "イベント" ? redIcon : greenIcon}
-      >
-        <Popup maxWidth="100" maxHeight="150">
-          <img src={picture} alt="img" className="picture" />
-          <br></br>
-          {`${name}`}
-          <br></br>
-          {`日程:${start_date}`}
-        </Popup>
-      </Marker>
-    );
-  };
-
   return (
     <Fragment>
       <header>
         <div className="title">
-          <h2>娯楽マップ</h2>
-          <MenuIcon className="menu-icon" />
+          <h2>エンターテイメントマップ</h2>
+          <Menu />
         </div>
       </header>
 
@@ -148,7 +129,7 @@ const Home = () => {
           />
         </div>
         <div className="map-box">
-          <Map data={data} />
+          <Map data={data} filteredList={filteredList} />
         </div>
       </div>
 
@@ -160,7 +141,7 @@ const Home = () => {
 
       <div className="eventList-container">
         <div className="event-list-title">
-          <h2>娯楽一覧</h2>
+          <h2>エンターテイメント一覧</h2>
         </div>
         {data.flat().map((item) => {
           const { name, address, start_date, id } = item;
@@ -170,10 +151,8 @@ const Home = () => {
               address={address}
               date={start_date}
               key={id}
-              addMarker={addMarker}
+              spotId={id}
               data={data}
-              eventClickName={eventClickName}
-              setEventClickName={setEventClickName}
             />
           );
         })}
