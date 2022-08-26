@@ -14,7 +14,7 @@ const initialState = {
 
 const Login = () => {
   const [values, setValues] = useState(initialState);
-    const navigate = useNavigate();
+  const navigate = useNavigate();
 
   const { registerUser, loginUser, isLoading, id } = useAppContext();
 
@@ -38,7 +38,7 @@ const Login = () => {
   return (
     <div className="login-container">
       <div className="logo">
-        <h1>EventMapper</h1>
+        <h1>EntertainmentMapper</h1>
       </div>
 
       <div className="form-container">
@@ -61,7 +61,9 @@ const Login = () => {
           />
 
           <button type="submit" className="btn">
-            <NavLink to="/home" className="loginSubmit">Submit</NavLink>
+            <NavLink to="/home" className="loginSubmit">
+              Submit
+            </NavLink>
           </button>
           <p
             className="isMember"

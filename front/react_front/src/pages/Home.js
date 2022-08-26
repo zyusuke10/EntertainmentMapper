@@ -28,7 +28,6 @@ const Home = () => {
   const [date, setDate] = useState("");
   const [filteredList, setFilteredList] = useState([]);
 
-
   const LeafIcon = L.Icon.extend({
     options: {},
   });
@@ -99,13 +98,11 @@ const Home = () => {
     }
   };
 
-  
-
   return (
     <Fragment>
       <header>
         <div className="title">
-          <h2>娯楽マップ</h2>
+          <h2>エンターテイメントマップ</h2>
           <Menu />
         </div>
       </header>
@@ -132,7 +129,7 @@ const Home = () => {
           />
         </div>
         <div className="map-box">
-          <Map data={data} filteredList={filteredList}/>
+          <Map data={data} filteredList={filteredList} />
         </div>
       </div>
 
@@ -144,7 +141,7 @@ const Home = () => {
 
       <div className="eventList-container">
         <div className="event-list-title">
-          <h2>娯楽一覧</h2>
+          <h2>エンターテイメント一覧</h2>
         </div>
         {data.flat().map((item) => {
           const { name, address, start_date, id } = item;

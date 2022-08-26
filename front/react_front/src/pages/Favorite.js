@@ -12,7 +12,7 @@ export const Favorite = () => {
 
   const fetchFavoriteData = async () => {
     const { data } = await axios.get(
-      `http://localhost:8000/api/favorite_spot/index/?user_id=2`
+      `http://localhost:8000/api/favorite_spot/index/?user_id=12`
     );
     setFavoriteData([data]);
   };
