@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/EntertainmentMapper/static/css/main.4b835abe.css",
+    "main.js": "/EntertainmentMapper/static/js/main.7462c36a.js",
+    "index.html": "/EntertainmentMapper/index.html",
+    "main.4b835abe.css.map": "/EntertainmentMapper/static/css/main.4b835abe.css.map",
+    "main.7462c36a.js.map": "/EntertainmentMapper/static/js/main.7462c36a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4b835abe.css",
+    "static/js/main.7462c36a.js"
+  ]
+}
